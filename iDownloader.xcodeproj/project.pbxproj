@@ -15,7 +15,6 @@
 		8514691E12B7E7AE00F8C663 /* iDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514691D12B7E7AE00F8C663 /* iDownloader.m */; };
 		8514692112B7E7AE00F8C663 /* iDownloader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8514691F12B7E7AE00F8C663 /* iDownloader.xib */; };
 		8514692312B7E7AE00F8C663 /* iDownloader.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */; };
-		8514692B12B7EE1900F8C663 /* CURLHandle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514692A12B7EE1900F8C663 /* CURLHandle.framework */; };
 		8514693512B7FAA800F8C663 /* BasicWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514693412B7FAA800F8C663 /* BasicWebpage.m */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		8514691D12B7E7AE00F8C663 /* iDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDownloader.m; sourceTree = "<group>"; };
 		8514692012B7E7AE00F8C663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iDownloader.xib; sourceTree = "<group>"; };
 		8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iDownloader.xcdatamodel; sourceTree = "<group>"; };
-		8514692A12B7EE1900F8C663 /* CURLHandle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CURLHandle.framework; sourceTree = "<group>"; };
 		8514693312B7FAA800F8C663 /* BasicWebpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicWebpage.h; path = Classes/BasicWebpage.h; sourceTree = "<group>"; };
 		8514693412B7FAA800F8C663 /* BasicWebpage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicWebpage.m; path = Classes/BasicWebpage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,7 +41,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8514690E12B7E7AE00F8C663 /* Cocoa.framework in Frameworks */,
-				8514692B12B7EE1900F8C663 /* CURLHandle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +101,6 @@
 		8514690512B7E7AE00F8C663 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8514692A12B7EE1900F8C663 /* CURLHandle.framework */,
 				8514690D12B7E7AE00F8C663 /* Cocoa.framework */,
 			);
 			name = Frameworks;

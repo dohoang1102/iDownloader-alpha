@@ -11,28 +11,6 @@
 
 @implementation BasicWebpage
 
-- (void) setURLHandle:(CURLHandle *)inURLHandle
-{
-	[inURLHandle retain];
-    [mURLHandle release];
-    mURLHandle = inURLHandle;
-}
-
--(NSURL *)url {
-    return self.url;
-}
-
--(void)setUrl:(NSURL *)inputURL {
-    self.url = inputURL;
-}
-
--(void)setUrlWithString:(NSString *)inputURL {
-    
-    self.url = [NSURL URLWithString:inputURL];
-}
-
-@synthesize header, html, response;
-
 - (id)init {
     if ((self = [super init])) {
         // Initialization code here.
@@ -48,19 +26,56 @@
 }
 
 
-- (BasicWebpage*) getByURL:(NSURL*) inputURL {
-    
-    [self setURLHandle:(CURLHandle *)[]]
-    
-    BasicWebpage* aWebpage = [[BasicWebpage init] alloc];
-    
-    NSURL* aURL = [[NSURL init] alloc];
+
+
+- (IBAction)startDownloadingURL:(id)sender {
+    NSURL* inputURL = [NSURL URLWithString:@"www.gamestar.de"];
     
     
-    
-    aWebpage.url = aURL;    
-    
-    return aWebpage;
+    [self startDownloadingWithURL:inputURL];
 }
 
+
+
+
+-(void)startDownloadingWithURL:(NSURL *)inputURL {
+    // Create the request.
+    NSURLRequest *theRequest = [NSURLRequest requestWithURL:[inputURL absoluteURL]
+                                                cachePolicy:NSURLRequestUseProtocolCachePolicy
+                                            timeoutInterval:60.0];
+    
+    // Create the download with the request and start loading the data.
+    NSURLDownload  *theDownload = [[NSURLDownload alloc] initWithRequest:theRequest delegate:self];
+    if (!theDownload) {
+        // Inform the user that the download failed.
+    }
+}
+
+- (void)download:(NSURLDownload *)download decideDestinationWithSuggestedFilename:(NSString *)filename {
+    NSString *destinationFilename;
+    NSString *homeDirectory = NSHomeDirectory();
+    
+    destinationFilename = [[homeDirectory stringByAppendingPathComponent:@"Desktop"]
+                           stringByAppendingPathComponent:filename];
+    [download setDestination:destinationFilename allowOverwrite:NO];
+}
+
+
+- (void)download:(NSURLDownload *)download didFailWithError:(NSError *)error {
+    // Release the download.
+    [download release];
+    
+    // Inform the user.
+    NSLog(@"Download failed! Error - %@ %@",
+          [error localizedDescription],
+          [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
+}
+
+- (void)downloadDidFinish:(NSURLDownload *)download {
+    // Release the download.
+    [download release];
+    
+    // Do something with the data.
+    NSLog(@"%@",@"downloadDidFinish");
+}
 @end

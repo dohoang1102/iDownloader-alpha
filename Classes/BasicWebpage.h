@@ -7,8 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CURLHandle/CURLHandle.h>
-
 
 @interface BasicWebpage : NSObject {
 @private
@@ -17,12 +15,8 @@
     NSString* html;
     NSString* response;
     
-    CURLHandle* mURLHandle;
 }
-@property ( readwrite, copy ) NSString* header;
-@property ( readwrite, copy ) NSString* html;
-@property ( readwrite, copy ) NSString* response;
-
-- (BasicWebpage*) getByURL:(NSURL*) url;
+- (IBAction)startDownloadingURL:(id)sender;
+-(void)startDownloadingWithURL:(NSURL *)inputURL;
 
 @end
