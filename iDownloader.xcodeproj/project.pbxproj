@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8514690E12B7E7AE00F8C663 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514690D12B7E7AE00F8C663 /* Cocoa.framework */; };
+		8514691312B7E7AE00F8C663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8514691112B7E7AE00F8C663 /* InfoPlist.strings */; };
+		8514691512B7E7AE00F8C663 /* iDownloader-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514691412B7E7AE00F8C663 /* iDownloader-main.m */; };
+		8514691812B7E7AE00F8C663 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8514691612B7E7AE00F8C663 /* MainMenu.xib */; };
+		8514691B12B7E7AE00F8C663 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8514691912B7E7AE00F8C663 /* Credits.rtf */; };
+		8514691E12B7E7AE00F8C663 /* iDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514691D12B7E7AE00F8C663 /* iDownloader.m */; };
+		8514692112B7E7AE00F8C663 /* iDownloader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8514691F12B7E7AE00F8C663 /* iDownloader.xib */; };
+		8514692312B7E7AE00F8C663 /* iDownloader.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8514690A12B7E7AE00F8C663 /* iDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8514690D12B7E7AE00F8C663 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8514690F12B7E7AE00F8C663 /* iDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDownloader-Info.plist"; sourceTree = "<group>"; };
+		8514691012B7E7AE00F8C663 /* iDownloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDownloader-Prefix.pch"; sourceTree = "<group>"; };
+		8514691212B7E7AE00F8C663 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8514691412B7E7AE00F8C663 /* iDownloader-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iDownloader-main.m"; sourceTree = "<group>"; };
+		8514691712B7E7AE00F8C663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8514691A12B7E7AE00F8C663 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8514691C12B7E7AE00F8C663 /* iDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDownloader.h; sourceTree = "<group>"; };
+		8514691D12B7E7AE00F8C663 /* iDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDownloader.m; sourceTree = "<group>"; };
+		8514692012B7E7AE00F8C663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iDownloader.xib; sourceTree = "<group>"; };
+		8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iDownloader.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8514690712B7E7AE00F8C663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8514690E12B7E7AE00F8C663 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		851468FA12B7E7AE00F8C663 = {
+			isa = PBXGroup;
+			children = (
+				8514690112B7E7AE00F8C663 /* Models */,
+				8514690212B7E7AE00F8C663 /* Classes */,
+				8514690312B7E7AE00F8C663 /* Other Sources */,
+				8514690412B7E7AE00F8C663 /* Resources */,
+				8514690512B7E7AE00F8C663 /* Frameworks */,
+				8514690B12B7E7AE00F8C663 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8514690112B7E7AE00F8C663 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8514690212B7E7AE00F8C663 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8514691C12B7E7AE00F8C663 /* iDownloader.h */,
+				8514691D12B7E7AE00F8C663 /* iDownloader.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8514690312B7E7AE00F8C663 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8514691012B7E7AE00F8C663 /* iDownloader-Prefix.pch */,
+				8514691412B7E7AE00F8C663 /* iDownloader-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		8514690412B7E7AE00F8C663 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8514690F12B7E7AE00F8C663 /* iDownloader-Info.plist */,
+				8514691112B7E7AE00F8C663 /* InfoPlist.strings */,
+				8514691612B7E7AE00F8C663 /* MainMenu.xib */,
+				8514691912B7E7AE00F8C663 /* Credits.rtf */,
+				8514691F12B7E7AE00F8C663 /* iDownloader.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8514690512B7E7AE00F8C663 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8514690D12B7E7AE00F8C663 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8514690B12B7E7AE00F8C663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8514690A12B7E7AE00F8C663 /* iDownloader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8514690912B7E7AE00F8C663 /* iDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8514692612B7E7AE00F8C663 /* Build configuration list for PBXNativeTarget "iDownloader" */;
+			buildPhases = (
+				8514690612B7E7AE00F8C663 /* Sources */,
+				8514690712B7E7AE00F8C663 /* Frameworks */,
+				8514690812B7E7AE00F8C663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDownloader;
+			productName = iDownloader;
+			productReference = 8514690A12B7E7AE00F8C663 /* iDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		851468FC12B7E7AE00F8C663 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 851468FF12B7E7AE00F8C663 /* Build configuration list for PBXProject "iDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 851468FA12B7E7AE00F8C663;
+			productRefGroup = 8514690B12B7E7AE00F8C663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8514690912B7E7AE00F8C663 /* iDownloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8514690812B7E7AE00F8C663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8514691312B7E7AE00F8C663 /* InfoPlist.strings in Resources */,
+				8514691812B7E7AE00F8C663 /* MainMenu.xib in Resources */,
+				8514691B12B7E7AE00F8C663 /* Credits.rtf in Resources */,
+				8514692112B7E7AE00F8C663 /* iDownloader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8514690612B7E7AE00F8C663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8514691512B7E7AE00F8C663 /* iDownloader-main.m in Sources */,
+				8514691E12B7E7AE00F8C663 /* iDownloader.m in Sources */,
+				8514692312B7E7AE00F8C663 /* iDownloader.xcdatamodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8514691112B7E7AE00F8C663 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8514691212B7E7AE00F8C663 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8514691612B7E7AE00F8C663 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8514691712B7E7AE00F8C663 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8514691912B7E7AE00F8C663 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8514691A12B7E7AE00F8C663 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8514691F12B7E7AE00F8C663 /* iDownloader.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8514692012B7E7AE00F8C663 /* en */,
+			);
+			name = iDownloader.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8514692412B7E7AE00F8C663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8514692512B7E7AE00F8C663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8514692712B7E7AE00F8C663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDownloader-Prefix.pch";
+				INFOPLIST_FILE = "iDownloader-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8514692812B7E7AE00F8C663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDownloader-Prefix.pch";
+				INFOPLIST_FILE = "iDownloader-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		851468FF12B7E7AE00F8C663 /* Build configuration list for PBXProject "iDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8514692412B7E7AE00F8C663 /* Debug */,
+				8514692512B7E7AE00F8C663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8514692612B7E7AE00F8C663 /* Build configuration list for PBXNativeTarget "iDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8514692712B7E7AE00F8C663 /* Debug */,
+				8514692812B7E7AE00F8C663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 851468FC12B7E7AE00F8C663 /* Project object */;
+}
