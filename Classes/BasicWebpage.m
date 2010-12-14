@@ -29,7 +29,7 @@
 
 
 - (IBAction)startDownloadingURL:(id)sender {
-    NSURL* inputURL = [NSURL URLWithString:@"www.gamestar.de"];
+    NSURL* inputURL = [NSURL URLWithString:@"http://www.gamestar.de"];
     
     
     [self startDownloadingWithURL:inputURL];
