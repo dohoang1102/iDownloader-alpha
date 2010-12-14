@@ -15,6 +15,7 @@
 		8514691E12B7E7AE00F8C663 /* iDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514691D12B7E7AE00F8C663 /* iDownloader.m */; };
 		8514692112B7E7AE00F8C663 /* iDownloader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8514691F12B7E7AE00F8C663 /* iDownloader.xib */; };
 		8514692312B7E7AE00F8C663 /* iDownloader.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */; };
+		8514692B12B7EE1900F8C663 /* CURLHandle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514692A12B7EE1900F8C663 /* CURLHandle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8514691D12B7E7AE00F8C663 /* iDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDownloader.m; sourceTree = "<group>"; };
 		8514692012B7E7AE00F8C663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iDownloader.xib; sourceTree = "<group>"; };
 		8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iDownloader.xcdatamodel; sourceTree = "<group>"; };
+		8514692A12B7EE1900F8C663 /* CURLHandle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CURLHandle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8514690E12B7E7AE00F8C663 /* Cocoa.framework in Frameworks */,
+				8514692B12B7EE1900F8C663 /* CURLHandle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +50,7 @@
 		851468FA12B7E7AE00F8C663 = {
 			isa = PBXGroup;
 			children = (
+				8514692912B7EC0A00F8C663 /* lib iDownloader */,
 				8514690112B7E7AE00F8C663 /* Models */,
 				8514690212B7E7AE00F8C663 /* Classes */,
 				8514690312B7E7AE00F8C663 /* Other Sources */,
@@ -97,6 +101,7 @@
 		8514690512B7E7AE00F8C663 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8514692A12B7EE1900F8C663 /* CURLHandle.framework */,
 				8514690D12B7E7AE00F8C663 /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -108,6 +113,13 @@
 				8514690A12B7E7AE00F8C663 /* iDownloader.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8514692912B7EC0A00F8C663 /* lib iDownloader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "lib iDownloader";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +263,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -268,6 +284,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDownloader-Prefix.pch";
