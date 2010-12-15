@@ -17,6 +17,6 @@
     
 }
 - (IBAction)startDownloadingURL:(id)sender;
--(void)startDownloadingWithURL:(NSURL *)inputURL;
+- (void)getWebPageByURL:(NSURL *)inputURL;
 
 @end
