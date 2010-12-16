@@ -7,7 +7,7 @@
 //
 
 #import "BasicWebpage.h"
-
+#import "HTMLParser.h"
 
 @implementation BasicWebpage
 
@@ -35,7 +35,23 @@
     
     // NSString* aString = [[NSString alloc] initWithContentsOfURL:inputURL];
 
+    //Example to download google's source and print out the urls of all the images
+    NSError * error = nil;
+    HTMLParser * parser = [[HTMLParser alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://www.google.com"] error:Nil];
     
+    if (error) {
+    NSLog(@"Error: %@", error);
+    return;
+    }
+    HTMLNode * bodyNode = [parser body]; //Find the body tag
+    
+    NSArray * imageNodes = [bodyNode findChildTags:@"img"]; //Get all the <img alt="" />
+    
+    for (HTMLNode * imageNode in imageNodes) { //Loop through all the tags
+    NSLog(@"Found image with src: %@", [imageNode getAttributeNamed:@"src"]); //Echo the src=""
+    }
+    
+    [parser release];
     
     
     //NSLog(@"%@", aString);
