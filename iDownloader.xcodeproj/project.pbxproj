@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851044B812BA93B800F7348B /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 851044B512BA93B800F7348B /* HTMLNode.m */; };
+		851044B912BA93B800F7348B /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 851044B712BA93B800F7348B /* HTMLParser.m */; };
+		851044BB12BA93DB00F7348B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 851044BA12BA93DB00F7348B /* libxml2.dylib */; };
 		8514690E12B7E7AE00F8C663 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514690D12B7E7AE00F8C663 /* Cocoa.framework */; };
 		8514691312B7E7AE00F8C663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8514691112B7E7AE00F8C663 /* InfoPlist.strings */; };
 		8514691512B7E7AE00F8C663 /* iDownloader-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514691412B7E7AE00F8C663 /* iDownloader-main.m */; };
@@ -19,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		851044B412BA93B800F7348B /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLNode.h; path = Classes/HTMLNode.h; sourceTree = "<group>"; };
+		851044B512BA93B800F7348B /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLNode.m; path = Classes/HTMLNode.m; sourceTree = "<group>"; };
+		851044B612BA93B800F7348B /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLParser.h; path = Classes/HTMLParser.h; sourceTree = "<group>"; };
+		851044B712BA93B800F7348B /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLParser.m; path = Classes/HTMLParser.m; sourceTree = "<group>"; };
+		851044BA12BA93DB00F7348B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		8514690A12B7E7AE00F8C663 /* iDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8514690D12B7E7AE00F8C663 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8514690F12B7E7AE00F8C663 /* iDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDownloader-Info.plist"; sourceTree = "<group>"; };
@@ -40,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851044BB12BA93DB00F7348B /* libxml2.dylib in Frameworks */,
 				8514690E12B7E7AE00F8C663 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +59,7 @@
 		851468FA12B7E7AE00F8C663 = {
 			isa = PBXGroup;
 			children = (
+				851044BA12BA93DB00F7348B /* libxml2.dylib */,
 				8514692912B7EC0A00F8C663 /* lib iDownloader */,
 				8514690112B7E7AE00F8C663 /* Models */,
 				8514690212B7E7AE00F8C663 /* Classes */,
@@ -117,6 +127,10 @@
 		8514692912B7EC0A00F8C663 /* lib iDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				851044B412BA93B800F7348B /* HTMLNode.h */,
+				851044B512BA93B800F7348B /* HTMLNode.m */,
+				851044B612BA93B800F7348B /* HTMLParser.h */,
+				851044B712BA93B800F7348B /* HTMLParser.m */,
 				8514693312B7FAA800F8C663 /* BasicWebpage.h */,
 				8514693412B7FAA800F8C663 /* BasicWebpage.m */,
 			);
@@ -188,6 +202,8 @@
 				8514691E12B7E7AE00F8C663 /* iDownloader.m in Sources */,
 				8514692312B7E7AE00F8C663 /* iDownloader.xcdatamodel in Sources */,
 				8514693512B7FAA800F8C663 /* BasicWebpage.m in Sources */,
+				851044B812BA93B800F7348B /* HTMLNode.m in Sources */,
+				851044B912BA93B800F7348B /* HTMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +255,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
@@ -254,6 +271,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PREBINDING = NO;
 				SDKROOT = macosx;

@@ -1,0 +1,80 @@
+TiDownloader
+v7
+r1
+cCheck dependencies
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Info.plist
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/iDownloader.nib
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/en.lproj/Credits.rtf
+c000000004D07B02E00000000000001B4
+t1292349486
+s436
+
+N/Users/sHansack/Xcode/iDownloader/en.lproj/InfoPlist.strings
+c000000004D07B02E000000000000002D
+t1292349486
+s45
+
+N/Users/sHansack/Xcode/iDownloader/en.lproj/MainMenu.xib
+c000000004D07B02E000000000002ADEE
+t1292349486
+s175598
+
+N/Users/sHansack/Xcode/iDownloader/en.lproj/iDownloader.xib
+c000000004D0A373600000000000037D3
+t1292515126
+s14291
+
+NiDownloader-Info.plist
+c000000004D07B02E0000000000000B75
+t1292349486
+s2933
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314216888#314216888#0(61"[BEROR]error: There is no SDK with the name or path 'macosx'1(4@53"error: There is no SDK with the name or path 'macosx'314216888#18446744073709551615#0#0(1@0"0(0#1#0"32651522506817640#0"0#
+
+CCompileXIB /Users/sHansack/Xcode/iDownloader/en.lproj/MainMenu.xib
+r0
+
+CCompileXIB /Users/sHansack/Xcode/iDownloader/en.lproj/iDownloader.xib
+r0
+
+CCopyStringsFile /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/iDownloader.app/Contents/Resources/en.lproj/Credits.rtf en.lproj/Credits.rtf
+r0
+
+CProcessInfoPlistFile /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Info.plist iDownloader-Info.plist
+r0
+
+CTouch /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app
+r0
+

@@ -1,0 +1,486 @@
+TiDownloader
+v7
+r0
+t314217059.649984
+cCheck dependencies
+cProcessInfoPlistFile /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Info.plist iDownloader-Info.plist
+cProcessPCH /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-ephrhjobrektkycnhcohxbfnmkrs/iDownloader-Prefix.pch.gch iDownloader-Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/iDownloader.mom /Users/sHansack/Xcode/iDownloader/iDownloader.xcdatamodel
+cCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-main.o /Users/sHansack/Xcode/iDownloader/iDownloader-main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-B8A7430BAFD86C80.o /Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-B8A7430BAFD86C80.o /Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/BasicWebpage.o /Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/HTMLNode.o /Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/HTMLParser.o /Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/MacOS/iDownloader normal i386
+cCopyStringsFile /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+cCompileXIB /Users/sHansack/Xcode/iDownloader/en.lproj/MainMenu.xib
+cCpResource build/Debug/iDownloader.app/Contents/Resources/en.lproj/Credits.rtf en.lproj/Credits.rtf
+cCompileXIB /Users/sHansack/Xcode/iDownloader/en.lproj/iDownloader.xib
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C18E94500000000000000EE
+t1276700997
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004BF4700F0000000000003430
+t1274310671
+s13360
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B90FBB700000000000013E6
+t1267792823
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2/libxml/HTMLparser.h
+c000000004B90C6970000000000002401
+t1267779223
+s9217
+
+N/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.h
+c000000004D0A5AE300000000000001A2
+t1292524259
+s418
+i<Foundation/Foundation.h>
+i"HTMLParser.h"
+
+N/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m
+c000000004D0A5ACE0000000000000540
+t1292524238
+s1344
+i"BasicWebpage.h"
+
+N/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.h
+c000000004D0A54DC0000000000000817
+t1292522716
+s2071
+i<Foundation/Foundation.h>
+i<libxml/HTMLparser.h>
+i"HTMLParser.h"
+
+N/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m
+c000000004D0A58E100000000000025D1
+t1292523745
+s9681
+i"HTMLNode.h"
+
+N/Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.h
+c000000004CE8A7FA000000000000026B
+t1290315770
+s619
+i<Foundation/Foundation.h>
+i<libxml/HTMLparser.h>
+i"HTMLNode.h"
+
+N/Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.m
+c000000004CE8A7FA000000000000082C
+t1290315770
+s2092
+i"HTMLParser.h"
+
+N/Users/sHansack/Xcode/iDownloader/Classes/iDownloader.h
+c000000004D07B02E00000000000000E7
+t1292349486
+s231
+i<Cocoa/Cocoa.h>
+
+N/Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m
+c000000004D07B02E00000000000003D3
+t1292349486
+s979
+i"iDownloader.h"
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app
+t1292524121
+s102
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Info.plist
+t1292524121
+s2486
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/MacOS/iDownloader
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/PkgInfo
+t1292524121
+s8
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/Credits.rtf
+t1292524127
+s436
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1292524127
+s92
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/MainMenu.nib
+t1292524127
+s33325
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/iDownloader.nib
+t1292524127
+s4462
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/iDownloader.mom
+t1292524126
+s488
+
+N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/BasicWebpage.o
+t1292524259
+s13692
+
+N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/HTMLNode.o
+t1292524157
+s31264
+
+N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/HTMLParser.o
+t1292524157
+s16600
+
+N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-B8A7430BAFD86C80.o
+t1292524157
+s18236
+
+N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-main.o
+t1292524157
+s4864
+
+N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader.LinkFileList
+c000000004D0A5A7B00000000000002DC
+t1292524155
+s732
+
+N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/BasicWebpage.o
+t1292524126
+s16532
+
+N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/HTMLNode.o
+t1292524126
+s39112
+
+N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/HTMLParser.o
+t1292524126
+s19912
+
+N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o
+t1292524126
+s19116
+
+N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-main.o
+t1292524126
+s4992
+
+N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader.LinkFileList
+c000000004D0A5A5900000000000002E8
+t1292524121
+s744
+
+N/Users/sHansack/Xcode/iDownloader/en.lproj/Credits.rtf
+c000000004D07B02E00000000000001B4
+t1292349486
+s436
+
+N/Users/sHansack/Xcode/iDownloader/en.lproj/InfoPlist.strings
+c000000004D07B02E000000000000002D
+t1292349486
+s45
+
+N/Users/sHansack/Xcode/iDownloader/en.lproj/MainMenu.xib
+c000000004D07B02E000000000002ADEE
+t1292349486
+s175598
+
+N/Users/sHansack/Xcode/iDownloader/en.lproj/iDownloader.xib
+c000000004D0A373600000000000037D3
+t1292515126
+s14291
+
+N/Users/sHansack/Xcode/iDownloader/iDownloader-Prefix.pch
+c000000004D07B02E0000000000000099
+t1292349486
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/sHansack/Xcode/iDownloader/iDownloader-main.m
+c000000004D07B02E0000000000000113
+t1292349486
+s275
+i<Cocoa/Cocoa.h>
+
+N/Users/sHansack/Xcode/iDownloader/iDownloader.xcdatamodel
+c000000004CDC612E0000000000000088
+t1289511214
+s136
+
+N/Users/sHansack/Xcode/iDownloader/macosx/usr/lib/libxml2.2.7.3.dylib
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-apecqhgmtedymbeqcbdoliopkllm/iDownloader-Prefix.pch.gch
+t1292524125
+s54273808
+
+N/var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-ephrhjobrektkycnhcohxbfnmkrs/iDownloader-Prefix.pch.gch
+t1292524157
+s56911664
+
+NiDownloader-Info.plist
+c000000004D07B02E0000000000000B75
+t1292349486
+s2933
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314217059#314217059#0(0"0(0#1#0"8615603168#0"0#
+
+CCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/BasicWebpage.o /Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314217059.498197
+e314217059.621822
+r1
+xCompileC
+xbuild/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/BasicWebpage.o
+x/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m: In function '-[BasicWebpage getWebPageByURL:]':
+o/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m:36: warning: unused variable 'aString'
+lSLF07#2@64"Compile /Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m314217059#314217059#0(202"/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m: In function '-[BasicWebpage getWebPageByURL:]':/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m:36: warning: unused variable 'aString'1(22@25"Unused variable 'aString'314217059#106#96#0(6@56"/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m314217038#36#0#36#0#19"unused variable '*'0(0#0#56"/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m8615823296#1619"    cd /Users/sHansack/Xcode/iDownloader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-generated-files.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-own-target-headers.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-all-target-headers.hmap -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-project-headers.hmap -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -iquote/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources/i386 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources -include /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-ephrhjobrektkycnhcohxbfnmkrs/iDownloader-Prefix.pch -c /Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m -o /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/BasicWebpage.o0#
+
+CCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/HTMLNode.o /Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314216957.568212
+e314216957.737048
+r1
+xCompileC
+xbuild/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/HTMLNode.o
+x/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m: In function 'rawContentsOfNode':
+o/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m:384: warning: implicit declaration of function 'htmlNodeDumpFormatOutput'
+lSLF07#2@60"Compile /Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m314216957#314216957#0(214"/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m: In function 'rawContentsOfNode':/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m:384: warning: implicit declaration of function 'htmlNodeDumpFormatOutput'1(22@59"Implicit declaration of function 'htmlNodeDumpFormatOutput'314216957#87#127#0(6@52"/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m314216545#384#0#384#0#36"implicit declaration of function '*'0(0#0#52"/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m8609561568#1611"    cd /Users/sHansack/Xcode/iDownloader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-generated-files.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-own-target-headers.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-all-target-headers.hmap -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-project-headers.hmap -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -iquote/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources/i386 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources -include /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-ephrhjobrektkycnhcohxbfnmkrs/iDownloader-Prefix.pch -c /Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m -o /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/HTMLNode.o0#
+
+CCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/HTMLParser.o /Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314216957.584432
+e314216957.719610
+r1
+xCompileC
+xbuild/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/HTMLParser.o
+x/Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.m314216957#314216957#0(0"0(0#0#54"/Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.m8609398624#1615"    cd /Users/sHansack/Xcode/iDownloader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-generated-files.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-own-target-headers.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-all-target-headers.hmap -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-project-headers.hmap -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -iquote/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources/i386 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources -include /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-ephrhjobrektkycnhcohxbfnmkrs/iDownloader-Prefix.pch -c /Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.m -o /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/HTMLParser.o0#
+
+CCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-B8A7430BAFD86C80.o /Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314216957.458536
+e314216957.597962
+r1
+xCompileC
+xbuild/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-B8A7430BAFD86C80.o
+x/Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m314216957#314216957#0(0"0(0#0#55"/Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m8610235584#1634"    cd /Users/sHansack/Xcode/iDownloader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-generated-files.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-own-target-headers.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-all-target-headers.hmap -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-project-headers.hmap -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -iquote/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources/i386 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources -include /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-ephrhjobrektkycnhcohxbfnmkrs/iDownloader-Prefix.pch -c /Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m -o /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-B8A7430BAFD86C80.o0#
+
+CCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-main.o /Users/sHansack/Xcode/iDownloader/iDownloader-main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314216957.457158
+e314216957.568124
+r1
+xCompileC
+xbuild/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-main.o
+x/Users/sHansack/Xcode/iDownloader/iDownloader-main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/sHansack/Xcode/iDownloader/iDownloader-main.m314216957#314216957#0(0"0(0#0#52"/Users/sHansack/Xcode/iDownloader/iDownloader-main.m8610429248#1619"    cd /Users/sHansack/Xcode/iDownloader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-generated-files.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-own-target-headers.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-all-target-headers.hmap -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-project-headers.hmap -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -iquote/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources/i386 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources -include /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-ephrhjobrektkycnhcohxbfnmkrs/iDownloader-Prefix.pch -c /Users/sHansack/Xcode/iDownloader/iDownloader-main.m -o /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-main.o0#
+
+CCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/BasicWebpage.o /Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s314216926.216138
+e314216926.498064
+r1
+xCompileC
+xbuild/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/BasicWebpage.o
+x/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m: In function '-[BasicWebpage getWebPageByURL:]':
+o/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m:37: warning: unused variable 'aString'
+lSLF07#2@64"Compile /Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m314216926#314216926#0(202"/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m: In function '-[BasicWebpage getWebPageByURL:]':/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m:37: warning: unused variable 'aString'1(22@25"Unused variable 'aString'314216926#106#96#0(6@56"/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m314216235#37#0#37#0#19"unused variable '*'0(0#0#56"/Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m8609744288#1625"    cd /Users/sHansack/Xcode/iDownloader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-generated-files.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-own-target-headers.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-all-target-headers.hmap -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-project-headers.hmap -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -iquote/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources/x86_64 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources -include /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-apecqhgmtedymbeqcbdoliopkllm/iDownloader-Prefix.pch -c /Users/sHansack/Xcode/iDownloader/Classes/BasicWebpage.m -o /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/BasicWebpage.o0#
+
+CCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/HTMLNode.o /Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s314216926.222744
+e314216926.526763
+r1
+xCompileC
+xbuild/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/HTMLNode.o
+x/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m: In function 'rawContentsOfNode':
+o/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m:384: warning: implicit declaration of function 'htmlNodeDumpFormatOutput'
+lSLF07#2@60"Compile /Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m314216926#314216926#0(214"/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m: In function 'rawContentsOfNode':/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m:384: warning: implicit declaration of function 'htmlNodeDumpFormatOutput'1(22@59"Implicit declaration of function 'htmlNodeDumpFormatOutput'314216926#87#127#0(6@52"/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m314216545#384#0#384#0#36"implicit declaration of function '*'0(0#0#52"/Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m8609278848#1617"    cd /Users/sHansack/Xcode/iDownloader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-generated-files.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-own-target-headers.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-all-target-headers.hmap -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-project-headers.hmap -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -iquote/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources/x86_64 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources -include /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-apecqhgmtedymbeqcbdoliopkllm/iDownloader-Prefix.pch -c /Users/sHansack/Xcode/iDownloader/Classes/HTMLNode.m -o /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/HTMLNode.o0#
+
+CCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/HTMLParser.o /Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s314216926.223639
+e314216926.503706
+r1
+xCompileC
+xbuild/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/HTMLParser.o
+x/Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.m314216926#314216926#0(0"0(0#0#54"/Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.m8608898464#1621"    cd /Users/sHansack/Xcode/iDownloader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-generated-files.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-own-target-headers.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-all-target-headers.hmap -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-project-headers.hmap -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -iquote/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources/x86_64 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources -include /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-apecqhgmtedymbeqcbdoliopkllm/iDownloader-Prefix.pch -c /Users/sHansack/Xcode/iDownloader/Classes/HTMLParser.m -o /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/HTMLParser.o0#
+
+CCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o /Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s314216925.969759
+e314216926.238329
+r1
+xCompileC
+xbuild/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o
+x/Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m314216925#314216926#0(0"0(0#0#55"/Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m8608901152#1640"    cd /Users/sHansack/Xcode/iDownloader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-generated-files.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-own-target-headers.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-all-target-headers.hmap -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-project-headers.hmap -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -iquote/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources/x86_64 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources -include /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-apecqhgmtedymbeqcbdoliopkllm/iDownloader-Prefix.pch -c /Users/sHansack/Xcode/iDownloader/Classes/iDownloader.m -o /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o0#
+
+CCompileC build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-main.o /Users/sHansack/Xcode/iDownloader/iDownloader-main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s314216925.968416
+e314216926.222678
+r1
+xCompileC
+xbuild/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-main.o
+x/Users/sHansack/Xcode/iDownloader/iDownloader-main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/sHansack/Xcode/iDownloader/iDownloader-main.m314216925#314216926#0(0"0(0#0#52"/Users/sHansack/Xcode/iDownloader/iDownloader-main.m8610244544#1625"    cd /Users/sHansack/Xcode/iDownloader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-generated-files.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-own-target-headers.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-all-target-headers.hmap -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-project-headers.hmap -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -iquote/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources/x86_64 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources -include /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-apecqhgmtedymbeqcbdoliopkllm/iDownloader-Prefix.pch -c /Users/sHansack/Xcode/iDownloader/iDownloader-main.m -o /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-main.o0#
+
+CCompileXIB /Users/sHansack/Xcode/iDownloader/en.lproj/MainMenu.xib
+s314216927.292143
+e314216927.527529
+r1
+xCompileXIB
+x/Users/sHansack/Xcode/iDownloader/en.lproj/MainMenu.xib
+lSLF07#2@32"CompileXIB en.lproj/MainMenu.xib314216927#314216927#0(0"0(0#0#55"/Users/sHansack/Xcode/iDownloader/en.lproj/MainMenu.xib8610430816#343"    cd /Users/sHansack/Xcode/iDownloader    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/MainMenu.nib /Users/sHansack/Xcode/iDownloader/en.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/sHansack/Xcode/iDownloader/en.lproj/iDownloader.xib
+s314216927.293127
+e314216927.455661
+r1
+xCompileXIB
+x/Users/sHansack/Xcode/iDownloader/en.lproj/iDownloader.xib
+lSLF07#2@35"CompileXIB en.lproj/iDownloader.xib314216927#314216927#0(0"0(0#0#58"/Users/sHansack/Xcode/iDownloader/en.lproj/iDownloader.xib8610400096#349"    cd /Users/sHansack/Xcode/iDownloader    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/iDownloader.nib /Users/sHansack/Xcode/iDownloader/en.lproj/iDownloader.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+s314216927.291601
+e314216927.664070
+r1
+xCopyStringsFile
+x/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/InfoPlist.strings
+xen.lproj/InfoPlist.strings
+lSLF07#2@31"Copy en.lproj/InfoPlist.strings314216927#314216927#0(0"0(0#0#60"/Users/sHansack/Xcode/iDownloader/en.lproj/InfoPlist.strings8609547840#349"    cd /Users/sHansack/Xcode/iDownloader    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 en.lproj/InfoPlist.strings --outdir /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj0#
+
+CCpResource build/Debug/iDownloader.app/Contents/Resources/en.lproj/Credits.rtf en.lproj/Credits.rtf
+s314216927.292688
+e314216927.421308
+r1
+xCpResource
+xbuild/Debug/iDownloader.app/Contents/Resources/en.lproj/Credits.rtf
+xen.lproj/Credits.rtf
+lSLF07#2@25"Copy en.lproj/Credits.rtf314216927#314216927#0(0"0(0#0#54"/Users/sHansack/Xcode/iDownloader/en.lproj/Credits.rtf8610403616#334"    cd /Users/sHansack/Xcode/iDownloader    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sHansack/Xcode/iDownloader/en.lproj/Credits.rtf /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj0#
+
+CDataModelCompile /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/iDownloader.mom /Users/sHansack/Xcode/iDownloader/iDownloader.xcdatamodel
+s314216925.967755
+e314216926.216058
+r1
+xDataModelCompile
+x/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/iDownloader.mom
+x/Users/sHansack/Xcode/iDownloader/iDownloader.xcdatamodel
+lSLF07#2@65"Compile /Users/sHansack/Xcode/iDownloader/iDownloader.xcdatamodel314216925#314216926#0(0"0(0#0#57"/Users/sHansack/Xcode/iDownloader/iDownloader.xcdatamodel8609702912#253"    cd /Users/sHansack/Xcode/iDownloader    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/sHansack/Xcode/iDownloader/iDownloader.xcdatamodel /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/iDownloader.mom0#
+
+CLd /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/MacOS/iDownloader normal i386
+s314217059.621887
+e314217059.649667
+r0
+xLd
+x/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/MacOS/iDownloader
+xnormal
+xi386
+old: duplicate symbol .objc_class_name_iDownloader in /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-B8A7430BAFD86C80.o and /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-B8A7430BAFD86C80.o
+ocollect2: ld returned 1 exit status
+lSLF07#2@93"Link /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/MacOS/iDownloader314217059#314217059#0(418"ld: duplicate symbol .objc_class_name_iDownloader in /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-B8A7430BAFD86C80.o and /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-B8A7430BAFD86C80.ocollect2: ld returned 1 exit statusCommand /Developer/usr/bin/gcc-4.2 failed with exit code 12(13@318"Duplicate symbol .objc_class_name_iDownloader in /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-B8A7430BAFD86C80.o and /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader-B8A7430BAFD86C80.o314217059#0#323#0(6@0"314217059#0#0#0#0#0"0(4@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1314217059#18446744073709551615#0#0(1@0"0(0#0#0"8611486528#582"    cd /Users/sHansack/Xcode/iDownloader    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -filelist /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/iDownloader.LinkFileList -mmacosx-version-min=10.6 -lxml2.2.7.3 -framework Cocoa -o /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/MacOS/iDownloader1#
+
+CLd /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/MacOS/iDownloader normal x86_64
+s314216926.526839
+e314216927.291538
+r0
+xLd
+x/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/MacOS/iDownloader
+xnormal
+xx86_64
+old: duplicate symbol _OBJC_METACLASS_$_iDownloader in /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o and /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o
+ocollect2: ld returned 1 exit status
+lSLF07#2@93"Link /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/MacOS/iDownloader314216926#314216927#0(423"ld: duplicate symbol _OBJC_METACLASS_$_iDownloader in /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o and /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.ocollect2: ld returned 1 exit statusCommand /Developer/usr/bin/gcc-4.2 failed with exit code 12(13@323"Duplicate symbol _OBJC_METACLASS_$_iDownloader in /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o and /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o314216927#0#328#0(6@0"314216927#0#0#0#0#0"0(4@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1314216927#18446744073709551615#0#0(1@0"0(0#0#0"8610084960#586"    cd /Users/sHansack/Xcode/iDownloader    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -filelist /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader.LinkFileList -mmacosx-version-min=10.6 -lxml2.2.7.3 -framework Cocoa -o /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/MacOS/iDownloader1#
+
+CProcessInfoPlistFile /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Info.plist iDownloader-Info.plist
+s314216921.946826
+e314216921.962706
+r1
+xProcessInfoPlistFile
+x/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Info.plist
+xiDownloader-Info.plist
+lSLF07#2@30"Process iDownloader-Info.plist314216921#314216921#0(0"0(0#0#56"/Users/sHansack/Xcode/iDownloader/iDownloader-Info.plist18859025310417008#307"    cd /Users/sHansack/Xcode/iDownloader    builtin-infoPlistUtility iDownloader-Info.plist -genpkginfo /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-apecqhgmtedymbeqcbdoliopkllm/iDownloader-Prefix.pch.gch iDownloader-Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s314216921.962825
+e314216925.967598
+r1
+xProcessPCH
+x/var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-apecqhgmtedymbeqcbdoliopkllm/iDownloader-Prefix.pch.gch
+xiDownloader-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile iDownloader-Prefix.pch314216921#314216925#0(0"0(0#0#56"/Users/sHansack/Xcode/iDownloader/iDownloader-Prefix.pch8610326272#1508"    cd /Users/sHansack/Xcode/iDownloader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-generated-files.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-own-target-headers.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-all-target-headers.hmap -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-project-headers.hmap -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -iquote/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources/x86_64 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources -c /Users/sHansack/Xcode/iDownloader/iDownloader-Prefix.pch -o /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-apecqhgmtedymbeqcbdoliopkllm/iDownloader-Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-ephrhjobrektkycnhcohxbfnmkrs/iDownloader-Prefix.pch.gch iDownloader-Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s314216955.468367
+e314216957.456958
+r1
+xProcessPCH
+x/var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-ephrhjobrektkycnhcohxbfnmkrs/iDownloader-Prefix.pch.gch
+xiDownloader-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile iDownloader-Prefix.pch314216955#314216957#0(0"0(0#0#56"/Users/sHansack/Xcode/iDownloader/iDownloader-Prefix.pch8609717568#1504"    cd /Users/sHansack/Xcode/iDownloader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-generated-files.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-own-target-headers.hmap -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-all-target-headers.hmap -iquote /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/iDownloader-project-headers.hmap -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -iquote/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources/i386 -I/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/DerivedSources -c /Users/sHansack/Xcode/iDownloader/iDownloader-Prefix.pch -o /var/folders/Sf/Sf7+5x37E4KwrX+YWMzhP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDownloader-Prefix-ephrhjobrektkycnhcohxbfnmkrs/iDownloader-Prefix.pch.gch0#
+
+CTouch /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app
+r0
+

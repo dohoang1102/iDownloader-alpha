@@ -33,7 +33,7 @@
 
 - (void)getWebPageByURL:(NSURL *)inputURL {
     
-    NSString* aString = [[NSString alloc] initWithContentsOfURL:inputURL];
+    // NSString* aString = [[NSString alloc] initWithContentsOfURL:inputURL];
 
     
     
