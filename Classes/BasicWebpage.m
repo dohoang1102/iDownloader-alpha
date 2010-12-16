@@ -25,6 +25,7 @@
     [super dealloc];
 }
 
+// TESTING
 - (IBAction)startDownloadingURL:(id)sender {
     NSURL * aURL = [NSURL URLWithString:@"http://www.google.de"];
 
@@ -33,8 +34,6 @@
 
 - (NSArray *)getLinksByURL:(NSURL *)inputURL {
     
-    // NSString* aString = [[NSString alloc] initWithContentsOfURL:inputURL];
-
     //Example to download google's source and print out the urls of all the images
     NSError * error = nil;
     HTMLParser * parser = [[HTMLParser alloc] initWithContentsOfURL:inputURL error:&error];
@@ -59,8 +58,6 @@
     NSArray * fLinks = [NSArray arrayWithArray:foundLinks];
     
     return fLinks;
-    
-    //NSLog(@"%@", aString);
 }
 
 @end

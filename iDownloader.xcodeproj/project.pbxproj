@@ -10,6 +10,46 @@
 		851044B812BA93B800F7348B /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 851044B512BA93B800F7348B /* HTMLNode.m */; };
 		851044B912BA93B800F7348B /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 851044B712BA93B800F7348B /* HTMLParser.m */; };
 		851044BB12BA93DB00F7348B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 851044BA12BA93DB00F7348B /* libxml2.dylib */; };
+		851044E612BAAAD200F7348B /* Knob Add.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044BF12BAAAD200F7348B /* Knob Add.icns */; };
+		851044E712BAAAD200F7348B /* Knob Attention.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044C012BAAAD200F7348B /* Knob Attention.icns */; };
+		851044E812BAAAD200F7348B /* Knob Blue.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044C112BAAAD200F7348B /* Knob Blue.icns */; };
+		851044E912BAAAD200F7348B /* Knob Cancel.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044C212BAAAD200F7348B /* Knob Cancel.icns */; };
+		851044EA12BAAAD200F7348B /* Knob Download.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044C312BAAAD200F7348B /* Knob Download.icns */; };
+		851044EB12BAAAD200F7348B /* Knob Fast Forward.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044C412BAAAD200F7348B /* Knob Fast Forward.icns */; };
+		851044EC12BAAAD200F7348B /* Knob Fast Rewind.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044C512BAAAD200F7348B /* Knob Fast Rewind.icns */; };
+		851044ED12BAAAD200F7348B /* Knob Favorite.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044C612BAAAD200F7348B /* Knob Favorite.icns */; };
+		851044EE12BAAAD200F7348B /* Knob Forward.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044C712BAAAD200F7348B /* Knob Forward.icns */; };
+		851044EF12BAAAD200F7348B /* Knob Graphite.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044C812BAAAD200F7348B /* Knob Graphite.icns */; };
+		851044F012BAAAD200F7348B /* Knob Green.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044C912BAAAD200F7348B /* Knob Green.icns */; };
+		851044F112BAAAD200F7348B /* Knob Grey.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044CA12BAAAD200F7348B /* Knob Grey.icns */; };
+		851044F212BAAAD200F7348B /* Knob Help.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044CB12BAAAD200F7348B /* Knob Help.icns */; };
+		851044F312BAAAD200F7348B /* Knob Info.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044CC12BAAAD200F7348B /* Knob Info.icns */; };
+		851044F412BAAAD200F7348B /* Knob Left.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044CD12BAAAD200F7348B /* Knob Left.icns */; };
+		851044F512BAAAD200F7348B /* Knob Loop Off.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044CE12BAAAD200F7348B /* Knob Loop Off.icns */; };
+		851044F612BAAAD200F7348B /* Knob Loop On.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044CF12BAAAD200F7348B /* Knob Loop On.icns */; };
+		851044F712BAAAD200F7348B /* Knob Message.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044D012BAAAD200F7348B /* Knob Message.icns */; };
+		851044F812BAAAD200F7348B /* Knob Orange.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044D112BAAAD200F7348B /* Knob Orange.icns */; };
+		851044F912BAAAD200F7348B /* Knob Pause.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044D212BAAAD200F7348B /* Knob Pause.icns */; };
+		851044FA12BAAAD200F7348B /* Knob Play Green.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044D312BAAAD200F7348B /* Knob Play Green.icns */; };
+		851044FB12BAAAD200F7348B /* Knob Play.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044D412BAAAD200F7348B /* Knob Play.icns */; };
+		851044FC12BAAAD200F7348B /* Knob Purple.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044D512BAAAD200F7348B /* Knob Purple.icns */; };
+		851044FD12BAAAD200F7348B /* Knob Record Off.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044D612BAAAD200F7348B /* Knob Record Off.icns */; };
+		851044FE12BAAAD200F7348B /* Knob Record On.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044D712BAAAD200F7348B /* Knob Record On.icns */; };
+		851044FF12BAAAD200F7348B /* Knob Red.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044D812BAAAD200F7348B /* Knob Red.icns */; };
+		8510450012BAAAD200F7348B /* Knob Refresh.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044D912BAAAD200F7348B /* Knob Refresh.icns */; };
+		8510450112BAAAD200F7348B /* Knob Remove Red.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044DA12BAAAD200F7348B /* Knob Remove Red.icns */; };
+		8510450212BAAAD200F7348B /* Knob Remove.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044DB12BAAAD200F7348B /* Knob Remove.icns */; };
+		8510450312BAAAD200F7348B /* Knob Search.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044DC12BAAAD200F7348B /* Knob Search.icns */; };
+		8510450412BAAAD200F7348B /* Knob Shuffle Off.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044DD12BAAAD200F7348B /* Knob Shuffle Off.icns */; };
+		8510450512BAAAD200F7348B /* Knob Shuffle On.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044DE12BAAAD200F7348B /* Knob Shuffle On.icns */; };
+		8510450612BAAAD200F7348B /* Knob Smart.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044DF12BAAAD200F7348B /* Knob Smart.icns */; };
+		8510450712BAAAD200F7348B /* Knob Snapback.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044E012BAAAD200F7348B /* Knob Snapback.icns */; };
+		8510450812BAAAD200F7348B /* Knob Snapforward.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044E112BAAAD200F7348B /* Knob Snapforward.icns */; };
+		8510450912BAAAD200F7348B /* Knob Stop.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044E212BAAAD200F7348B /* Knob Stop.icns */; };
+		8510450A12BAAAD200F7348B /* Knob Upload.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044E312BAAAD200F7348B /* Knob Upload.icns */; };
+		8510450B12BAAAD200F7348B /* Knob Valid Blue.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044E412BAAAD200F7348B /* Knob Valid Blue.icns */; };
+		8510450C12BAAAD200F7348B /* Knob Valid Green.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044E512BAAAD200F7348B /* Knob Valid Green.icns */; };
+		8510451E12BAB7B000F7348B /* iDownloader.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8510451D12BAB7B000F7348B /* iDownloader.icns */; };
 		8514690E12B7E7AE00F8C663 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514690D12B7E7AE00F8C663 /* Cocoa.framework */; };
 		8514691312B7E7AE00F8C663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8514691112B7E7AE00F8C663 /* InfoPlist.strings */; };
 		8514691512B7E7AE00F8C663 /* iDownloader-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514691412B7E7AE00F8C663 /* iDownloader-main.m */; };
@@ -26,7 +66,47 @@
 		851044B512BA93B800F7348B /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLNode.m; path = Classes/HTMLNode.m; sourceTree = "<group>"; };
 		851044B612BA93B800F7348B /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLParser.h; path = Classes/HTMLParser.h; sourceTree = "<group>"; };
 		851044B712BA93B800F7348B /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLParser.m; path = Classes/HTMLParser.m; sourceTree = "<group>"; };
-		851044BA12BA93DB00F7348B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		851044BA12BA93DB00F7348B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Xcode4/SDKs/MacOSX10.6.sdk/usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		851044BF12BAAAD200F7348B /* Knob Add.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Add.icns"; sourceTree = "<group>"; };
+		851044C012BAAAD200F7348B /* Knob Attention.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Attention.icns"; sourceTree = "<group>"; };
+		851044C112BAAAD200F7348B /* Knob Blue.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Blue.icns"; sourceTree = "<group>"; };
+		851044C212BAAAD200F7348B /* Knob Cancel.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Cancel.icns"; sourceTree = "<group>"; };
+		851044C312BAAAD200F7348B /* Knob Download.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Download.icns"; sourceTree = "<group>"; };
+		851044C412BAAAD200F7348B /* Knob Fast Forward.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Fast Forward.icns"; sourceTree = "<group>"; };
+		851044C512BAAAD200F7348B /* Knob Fast Rewind.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Fast Rewind.icns"; sourceTree = "<group>"; };
+		851044C612BAAAD200F7348B /* Knob Favorite.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Favorite.icns"; sourceTree = "<group>"; };
+		851044C712BAAAD200F7348B /* Knob Forward.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Forward.icns"; sourceTree = "<group>"; };
+		851044C812BAAAD200F7348B /* Knob Graphite.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Graphite.icns"; sourceTree = "<group>"; };
+		851044C912BAAAD200F7348B /* Knob Green.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Green.icns"; sourceTree = "<group>"; };
+		851044CA12BAAAD200F7348B /* Knob Grey.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Grey.icns"; sourceTree = "<group>"; };
+		851044CB12BAAAD200F7348B /* Knob Help.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Help.icns"; sourceTree = "<group>"; };
+		851044CC12BAAAD200F7348B /* Knob Info.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Info.icns"; sourceTree = "<group>"; };
+		851044CD12BAAAD200F7348B /* Knob Left.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Left.icns"; sourceTree = "<group>"; };
+		851044CE12BAAAD200F7348B /* Knob Loop Off.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Loop Off.icns"; sourceTree = "<group>"; };
+		851044CF12BAAAD200F7348B /* Knob Loop On.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Loop On.icns"; sourceTree = "<group>"; };
+		851044D012BAAAD200F7348B /* Knob Message.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Message.icns"; sourceTree = "<group>"; };
+		851044D112BAAAD200F7348B /* Knob Orange.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Orange.icns"; sourceTree = "<group>"; };
+		851044D212BAAAD200F7348B /* Knob Pause.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Pause.icns"; sourceTree = "<group>"; };
+		851044D312BAAAD200F7348B /* Knob Play Green.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Play Green.icns"; sourceTree = "<group>"; };
+		851044D412BAAAD200F7348B /* Knob Play.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Play.icns"; sourceTree = "<group>"; };
+		851044D512BAAAD200F7348B /* Knob Purple.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Purple.icns"; sourceTree = "<group>"; };
+		851044D612BAAAD200F7348B /* Knob Record Off.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Record Off.icns"; sourceTree = "<group>"; };
+		851044D712BAAAD200F7348B /* Knob Record On.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Record On.icns"; sourceTree = "<group>"; };
+		851044D812BAAAD200F7348B /* Knob Red.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Red.icns"; sourceTree = "<group>"; };
+		851044D912BAAAD200F7348B /* Knob Refresh.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Refresh.icns"; sourceTree = "<group>"; };
+		851044DA12BAAAD200F7348B /* Knob Remove Red.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Remove Red.icns"; sourceTree = "<group>"; };
+		851044DB12BAAAD200F7348B /* Knob Remove.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Remove.icns"; sourceTree = "<group>"; };
+		851044DC12BAAAD200F7348B /* Knob Search.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Search.icns"; sourceTree = "<group>"; };
+		851044DD12BAAAD200F7348B /* Knob Shuffle Off.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Shuffle Off.icns"; sourceTree = "<group>"; };
+		851044DE12BAAAD200F7348B /* Knob Shuffle On.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Shuffle On.icns"; sourceTree = "<group>"; };
+		851044DF12BAAAD200F7348B /* Knob Smart.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Smart.icns"; sourceTree = "<group>"; };
+		851044E012BAAAD200F7348B /* Knob Snapback.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Snapback.icns"; sourceTree = "<group>"; };
+		851044E112BAAAD200F7348B /* Knob Snapforward.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Snapforward.icns"; sourceTree = "<group>"; };
+		851044E212BAAAD200F7348B /* Knob Stop.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Stop.icns"; sourceTree = "<group>"; };
+		851044E312BAAAD200F7348B /* Knob Upload.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Upload.icns"; sourceTree = "<group>"; };
+		851044E412BAAAD200F7348B /* Knob Valid Blue.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Valid Blue.icns"; sourceTree = "<group>"; };
+		851044E512BAAAD200F7348B /* Knob Valid Green.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Valid Green.icns"; sourceTree = "<group>"; };
+		8510451D12BAB7B000F7348B /* iDownloader.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iDownloader.icns; sourceTree = "<group>"; };
 		8514690A12B7E7AE00F8C663 /* iDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8514690D12B7E7AE00F8C663 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8514690F12B7E7AE00F8C663 /* iDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDownloader-Info.plist"; sourceTree = "<group>"; };
@@ -56,10 +136,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		851044BC12BAA96A00F7348B /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				8514691612B7E7AE00F8C663 /* MainMenu.xib */,
+				8514691F12B7E7AE00F8C663 /* iDownloader.xib */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		851044BD12BAA9CB00F7348B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8510451D12BAB7B000F7348B /* iDownloader.icns */,
+				851044BE12BAAAD200F7348B /* knobs */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		851044BE12BAAAD200F7348B /* knobs */ = {
+			isa = PBXGroup;
+			children = (
+				851044BF12BAAAD200F7348B /* Knob Add.icns */,
+				851044C012BAAAD200F7348B /* Knob Attention.icns */,
+				851044C112BAAAD200F7348B /* Knob Blue.icns */,
+				851044C212BAAAD200F7348B /* Knob Cancel.icns */,
+				851044C312BAAAD200F7348B /* Knob Download.icns */,
+				851044C412BAAAD200F7348B /* Knob Fast Forward.icns */,
+				851044C512BAAAD200F7348B /* Knob Fast Rewind.icns */,
+				851044C612BAAAD200F7348B /* Knob Favorite.icns */,
+				851044C712BAAAD200F7348B /* Knob Forward.icns */,
+				851044C812BAAAD200F7348B /* Knob Graphite.icns */,
+				851044C912BAAAD200F7348B /* Knob Green.icns */,
+				851044CA12BAAAD200F7348B /* Knob Grey.icns */,
+				851044CB12BAAAD200F7348B /* Knob Help.icns */,
+				851044CC12BAAAD200F7348B /* Knob Info.icns */,
+				851044CD12BAAAD200F7348B /* Knob Left.icns */,
+				851044CE12BAAAD200F7348B /* Knob Loop Off.icns */,
+				851044CF12BAAAD200F7348B /* Knob Loop On.icns */,
+				851044D012BAAAD200F7348B /* Knob Message.icns */,
+				851044D112BAAAD200F7348B /* Knob Orange.icns */,
+				851044D212BAAAD200F7348B /* Knob Pause.icns */,
+				851044D312BAAAD200F7348B /* Knob Play Green.icns */,
+				851044D412BAAAD200F7348B /* Knob Play.icns */,
+				851044D512BAAAD200F7348B /* Knob Purple.icns */,
+				851044D612BAAAD200F7348B /* Knob Record Off.icns */,
+				851044D712BAAAD200F7348B /* Knob Record On.icns */,
+				851044D812BAAAD200F7348B /* Knob Red.icns */,
+				851044D912BAAAD200F7348B /* Knob Refresh.icns */,
+				851044DA12BAAAD200F7348B /* Knob Remove Red.icns */,
+				851044DB12BAAAD200F7348B /* Knob Remove.icns */,
+				851044DC12BAAAD200F7348B /* Knob Search.icns */,
+				851044DD12BAAAD200F7348B /* Knob Shuffle Off.icns */,
+				851044DE12BAAAD200F7348B /* Knob Shuffle On.icns */,
+				851044DF12BAAAD200F7348B /* Knob Smart.icns */,
+				851044E012BAAAD200F7348B /* Knob Snapback.icns */,
+				851044E112BAAAD200F7348B /* Knob Snapforward.icns */,
+				851044E212BAAAD200F7348B /* Knob Stop.icns */,
+				851044E312BAAAD200F7348B /* Knob Upload.icns */,
+				851044E412BAAAD200F7348B /* Knob Valid Blue.icns */,
+				851044E512BAAAD200F7348B /* Knob Valid Green.icns */,
+			);
+			name = knobs;
+			path = images/knobs;
+			sourceTree = "<group>";
+		};
 		851468FA12B7E7AE00F8C663 = {
 			isa = PBXGroup;
 			children = (
-				851044BA12BA93DB00F7348B /* libxml2.dylib */,
+				851044BD12BAA9CB00F7348B /* images */,
+				851044BC12BAA96A00F7348B /* ui */,
 				8514692912B7EC0A00F8C663 /* lib iDownloader */,
 				8514690112B7E7AE00F8C663 /* Models */,
 				8514690212B7E7AE00F8C663 /* Classes */,
@@ -101,9 +247,7 @@
 			children = (
 				8514690F12B7E7AE00F8C663 /* iDownloader-Info.plist */,
 				8514691112B7E7AE00F8C663 /* InfoPlist.strings */,
-				8514691612B7E7AE00F8C663 /* MainMenu.xib */,
 				8514691912B7E7AE00F8C663 /* Credits.rtf */,
-				8514691F12B7E7AE00F8C663 /* iDownloader.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -111,6 +255,7 @@
 		8514690512B7E7AE00F8C663 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				851044BA12BA93DB00F7348B /* libxml2.dylib */,
 				8514690D12B7E7AE00F8C663 /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -188,6 +333,46 @@
 				8514691812B7E7AE00F8C663 /* MainMenu.xib in Resources */,
 				8514691B12B7E7AE00F8C663 /* Credits.rtf in Resources */,
 				8514692112B7E7AE00F8C663 /* iDownloader.xib in Resources */,
+				851044E612BAAAD200F7348B /* Knob Add.icns in Resources */,
+				851044E712BAAAD200F7348B /* Knob Attention.icns in Resources */,
+				851044E812BAAAD200F7348B /* Knob Blue.icns in Resources */,
+				851044E912BAAAD200F7348B /* Knob Cancel.icns in Resources */,
+				851044EA12BAAAD200F7348B /* Knob Download.icns in Resources */,
+				851044EB12BAAAD200F7348B /* Knob Fast Forward.icns in Resources */,
+				851044EC12BAAAD200F7348B /* Knob Fast Rewind.icns in Resources */,
+				851044ED12BAAAD200F7348B /* Knob Favorite.icns in Resources */,
+				851044EE12BAAAD200F7348B /* Knob Forward.icns in Resources */,
+				851044EF12BAAAD200F7348B /* Knob Graphite.icns in Resources */,
+				851044F012BAAAD200F7348B /* Knob Green.icns in Resources */,
+				851044F112BAAAD200F7348B /* Knob Grey.icns in Resources */,
+				851044F212BAAAD200F7348B /* Knob Help.icns in Resources */,
+				851044F312BAAAD200F7348B /* Knob Info.icns in Resources */,
+				851044F412BAAAD200F7348B /* Knob Left.icns in Resources */,
+				851044F512BAAAD200F7348B /* Knob Loop Off.icns in Resources */,
+				851044F612BAAAD200F7348B /* Knob Loop On.icns in Resources */,
+				851044F712BAAAD200F7348B /* Knob Message.icns in Resources */,
+				851044F812BAAAD200F7348B /* Knob Orange.icns in Resources */,
+				851044F912BAAAD200F7348B /* Knob Pause.icns in Resources */,
+				851044FA12BAAAD200F7348B /* Knob Play Green.icns in Resources */,
+				851044FB12BAAAD200F7348B /* Knob Play.icns in Resources */,
+				851044FC12BAAAD200F7348B /* Knob Purple.icns in Resources */,
+				851044FD12BAAAD200F7348B /* Knob Record Off.icns in Resources */,
+				851044FE12BAAAD200F7348B /* Knob Record On.icns in Resources */,
+				851044FF12BAAAD200F7348B /* Knob Red.icns in Resources */,
+				8510450012BAAAD200F7348B /* Knob Refresh.icns in Resources */,
+				8510450112BAAAD200F7348B /* Knob Remove Red.icns in Resources */,
+				8510450212BAAAD200F7348B /* Knob Remove.icns in Resources */,
+				8510450312BAAAD200F7348B /* Knob Search.icns in Resources */,
+				8510450412BAAAD200F7348B /* Knob Shuffle Off.icns in Resources */,
+				8510450512BAAAD200F7348B /* Knob Shuffle On.icns in Resources */,
+				8510450612BAAAD200F7348B /* Knob Smart.icns in Resources */,
+				8510450712BAAAD200F7348B /* Knob Snapback.icns in Resources */,
+				8510450812BAAAD200F7348B /* Knob Snapforward.icns in Resources */,
+				8510450912BAAAD200F7348B /* Knob Stop.icns in Resources */,
+				8510450A12BAAAD200F7348B /* Knob Upload.icns in Resources */,
+				8510450B12BAAAD200F7348B /* Knob Valid Blue.icns in Resources */,
+				8510450C12BAAAD200F7348B /* Knob Valid Green.icns in Resources */,
+				8510451E12BAB7B000F7348B /* iDownloader.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
