@@ -45,17 +45,18 @@
     HTMLNode * bodyNode = [parser body]; //Find the body tag
     
     NSArray * imageNodes = [bodyNode findChildTags:@"a"]; //Get all the <a href="" />
-    NSMutableArray * foundLinks = [[NSArray alloc] init ];
+    NSMutableArray * foundLinks = [[NSMutableArray alloc] init ];
     
     for (HTMLNode * imageNode in imageNodes) { //Loop through all the tags
         
-        [foundLinks addObject:imageNode];
+        [foundLinks addObject:[imageNode getAttributeNamed:@"href"]];
+        
         //NSLog(@"Found links with href: %@", [imageNode getAttributeNamed:@"href"]); //Echo the src=""
     }
     
     [parser release];
     
-    NSArray * fLinks = [NSArray arrayWithArray:foundLinks];
+    NSArray * fLinks = [[foundLinks copy] autorelease];
     
     return fLinks;
 }

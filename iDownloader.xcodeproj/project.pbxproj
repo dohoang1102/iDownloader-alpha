@@ -50,6 +50,7 @@
 		8510450B12BAAAD200F7348B /* Knob Valid Blue.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044E412BAAAD200F7348B /* Knob Valid Blue.icns */; };
 		8510450C12BAAAD200F7348B /* Knob Valid Green.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044E512BAAAD200F7348B /* Knob Valid Green.icns */; };
 		8510451E12BAB7B000F7348B /* iDownloader.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8510451D12BAB7B000F7348B /* iDownloader.icns */; };
+		8510452412BAD47900F7348B /* DecyrptDLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8510452312BAD47900F7348B /* DecyrptDLC.m */; };
 		8514690E12B7E7AE00F8C663 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514690D12B7E7AE00F8C663 /* Cocoa.framework */; };
 		8514691312B7E7AE00F8C663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8514691112B7E7AE00F8C663 /* InfoPlist.strings */; };
 		8514691512B7E7AE00F8C663 /* iDownloader-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514691412B7E7AE00F8C663 /* iDownloader-main.m */; };
@@ -66,7 +67,7 @@
 		851044B512BA93B800F7348B /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLNode.m; path = Classes/HTMLNode.m; sourceTree = "<group>"; };
 		851044B612BA93B800F7348B /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLParser.h; path = Classes/HTMLParser.h; sourceTree = "<group>"; };
 		851044B712BA93B800F7348B /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLParser.m; path = Classes/HTMLParser.m; sourceTree = "<group>"; };
-		851044BA12BA93DB00F7348B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Xcode4/SDKs/MacOSX10.6.sdk/usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		851044BA12BA93DB00F7348B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = ../../../usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		851044BF12BAAAD200F7348B /* Knob Add.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Add.icns"; sourceTree = "<group>"; };
 		851044C012BAAAD200F7348B /* Knob Attention.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Attention.icns"; sourceTree = "<group>"; };
 		851044C112BAAAD200F7348B /* Knob Blue.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Blue.icns"; sourceTree = "<group>"; };
@@ -107,6 +108,8 @@
 		851044E412BAAAD200F7348B /* Knob Valid Blue.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Valid Blue.icns"; sourceTree = "<group>"; };
 		851044E512BAAAD200F7348B /* Knob Valid Green.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Valid Green.icns"; sourceTree = "<group>"; };
 		8510451D12BAB7B000F7348B /* iDownloader.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iDownloader.icns; sourceTree = "<group>"; };
+		8510452212BAD47900F7348B /* DecyrptDLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecyrptDLC.h; path = Classes/DecyrptDLC.h; sourceTree = "<group>"; };
+		8510452312BAD47900F7348B /* DecyrptDLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DecyrptDLC.m; path = Classes/DecyrptDLC.m; sourceTree = "<group>"; };
 		8514690A12B7E7AE00F8C663 /* iDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8514690D12B7E7AE00F8C663 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8514690F12B7E7AE00F8C663 /* iDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDownloader-Info.plist"; sourceTree = "<group>"; };
@@ -278,6 +281,8 @@
 				851044B712BA93B800F7348B /* HTMLParser.m */,
 				8514693312B7FAA800F8C663 /* BasicWebpage.h */,
 				8514693412B7FAA800F8C663 /* BasicWebpage.m */,
+				8510452212BAD47900F7348B /* DecyrptDLC.h */,
+				8510452312BAD47900F7348B /* DecyrptDLC.m */,
 			);
 			name = "lib iDownloader";
 			sourceTree = "<group>";
@@ -389,6 +394,7 @@
 				8514693512B7FAA800F8C663 /* BasicWebpage.m in Sources */,
 				851044B812BA93B800F7348B /* HTMLNode.m in Sources */,
 				851044B912BA93B800F7348B /* HTMLParser.m in Sources */,
+				8510452412BAD47900F7348B /* DecyrptDLC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
