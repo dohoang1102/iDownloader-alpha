@@ -26,33 +26,39 @@
 }
 
 - (IBAction)startDownloadingURL:(id)sender {
-    NSURL* aURL = [NSURL URLWithString:@"http://www.gamestar.de"];
+    NSURL * aURL = [NSURL URLWithString:@"http://www.google.de"];
 
-    [self getWebPageByURL:aURL];
+    [self getLinksByURL:aURL];
 }
 
-- (void)getWebPageByURL:(NSURL *)inputURL {
+- (NSArray *)getLinksByURL:(NSURL *)inputURL {
     
     // NSString* aString = [[NSString alloc] initWithContentsOfURL:inputURL];
 
     //Example to download google's source and print out the urls of all the images
     NSError * error = nil;
-    HTMLParser * parser = [[HTMLParser alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://www.google.com"] error:Nil];
+    HTMLParser * parser = [[HTMLParser alloc] initWithContentsOfURL:inputURL error:&error];
     
     if (error) {
-    NSLog(@"Error: %@", error);
-    return;
+        
+        NSLog(@"Error: %@", error);
     }
     HTMLNode * bodyNode = [parser body]; //Find the body tag
     
-    NSArray * imageNodes = [bodyNode findChildTags:@"img"]; //Get all the <img alt="" />
+    NSArray * imageNodes = [bodyNode findChildTags:@"a"]; //Get all the <a href="" />
+    NSMutableArray * foundLinks = [[NSArray alloc] init ];
     
     for (HTMLNode * imageNode in imageNodes) { //Loop through all the tags
-    NSLog(@"Found image with src: %@", [imageNode getAttributeNamed:@"src"]); //Echo the src=""
+        
+        [foundLinks addObject:imageNode];
+        //NSLog(@"Found links with href: %@", [imageNode getAttributeNamed:@"href"]); //Echo the src=""
     }
     
     [parser release];
     
+    NSArray * fLinks = [NSArray arrayWithArray:foundLinks];
+    
+    return fLinks;
     
     //NSLog(@"%@", aString);
 }
