@@ -60,6 +60,8 @@
 		8514692112B7E7AE00F8C663 /* iDownloader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8514691F12B7E7AE00F8C663 /* iDownloader.xib */; };
 		8514692312B7E7AE00F8C663 /* iDownloader.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */; };
 		8514693512B7FAA800F8C663 /* BasicWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514693412B7FAA800F8C663 /* BasicWebpage.m */; };
+		85DE7E7512BAE0F600DA33FF /* DLFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE7E7412BAE0F600DA33FF /* DLFile.m */; };
+		85DE7E7B12BAE85C00DA33FF /* Hoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE7E7A12BAE85C00DA33FF /* Hoster.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +126,10 @@
 		8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iDownloader.xcdatamodel; sourceTree = "<group>"; };
 		8514693312B7FAA800F8C663 /* BasicWebpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicWebpage.h; path = Classes/BasicWebpage.h; sourceTree = "<group>"; };
 		8514693412B7FAA800F8C663 /* BasicWebpage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicWebpage.m; path = Classes/BasicWebpage.m; sourceTree = "<group>"; };
+		85DE7E7312BAE0F600DA33FF /* DLFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLFile.h; sourceTree = "<group>"; };
+		85DE7E7412BAE0F600DA33FF /* DLFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLFile.m; sourceTree = "<group>"; };
+		85DE7E7912BAE85C00DA33FF /* Hoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hoster.h; sourceTree = "<group>"; };
+		85DE7E7A12BAE85C00DA33FF /* Hoster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hoster.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +238,10 @@
 			children = (
 				8514691C12B7E7AE00F8C663 /* iDownloader.h */,
 				8514691D12B7E7AE00F8C663 /* iDownloader.m */,
+				85DE7E7312BAE0F600DA33FF /* DLFile.h */,
+				85DE7E7412BAE0F600DA33FF /* DLFile.m */,
+				85DE7E7912BAE85C00DA33FF /* Hoster.h */,
+				85DE7E7A12BAE85C00DA33FF /* Hoster.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -395,6 +405,8 @@
 				851044B812BA93B800F7348B /* HTMLNode.m in Sources */,
 				851044B912BA93B800F7348B /* HTMLParser.m in Sources */,
 				8510452412BAD47900F7348B /* DecyrptDLC.m in Sources */,
+				85DE7E7512BAE0F600DA33FF /* DLFile.m in Sources */,
+				85DE7E7B12BAE85C00DA33FF /* Hoster.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

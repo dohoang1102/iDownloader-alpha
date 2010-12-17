@@ -25,18 +25,20 @@
     [super dealloc];
 }
 
+@synthesize url, hoster;
+
 // TESTING
 - (IBAction)startDownloadingURL:(id)sender {
-    NSURL * aURL = [NSURL URLWithString:@"http://www.google.de"];
+    self.url = [NSURL URLWithString:@"http://www.google.de"];
 
-    [self getLinksByURL:aURL];
+    [self getLinks];
 }
 
-- (NSArray *)getLinksByURL:(NSURL *)inputURL {
+- (NSArray *)getLinks {
     
     //Example to download google's source and print out the urls of all the images
     NSError * error = nil;
-    HTMLParser * parser = [[HTMLParser alloc] initWithContentsOfURL:inputURL error:&error];
+    HTMLParser * parser = [[HTMLParser alloc] initWithContentsOfURL:self.url error:&error];
     
     if (error) {
         

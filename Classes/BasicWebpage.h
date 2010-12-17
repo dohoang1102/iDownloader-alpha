@@ -7,16 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Hoster.h"
 
 @interface BasicWebpage : NSObject {
-@private
-    NSURL* url;
-    NSString* header;
-    NSString* html;
-    NSString* response;
-    
+    NSURL * url;
+    Hoster * hoster;
 }
+
+@property (nonatomic, retain) NSURL * url;
+@property (nonatomic, retain) Hoster * hoster;
+
+
 - (IBAction)startDownloadingURL:(id)sender;
-- (NSArray *)getLinksByURL:(NSURL *)inputURL;
+- (NSArray *)getLinks;
 
 @end
+
+
