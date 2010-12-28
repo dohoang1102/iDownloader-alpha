@@ -9,7 +9,7 @@
 #import "NSUrl.h"
 
 
-@implementation NSUrl
+@implementation NSURL
 
 - (id)init {
     if ((self = [super init])) {

@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <NSUrl.h>
 
-@interface NSUrl : NSObject {
+@interface NSURL : NSObject {
 @private
     
 }
