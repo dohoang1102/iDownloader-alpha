@@ -62,6 +62,7 @@
 		8514693512B7FAA800F8C663 /* BasicWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514693412B7FAA800F8C663 /* BasicWebpage.m */; };
 		85DE7E7512BAE0F600DA33FF /* DLFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE7E7412BAE0F600DA33FF /* DLFile.m */; };
 		85DE7E7B12BAE85C00DA33FF /* Hoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE7E7A12BAE85C00DA33FF /* Hoster.m */; };
+		85F1B0BA12C96492006E3DC5 /* rapidshare.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85F1B0B912C96492006E3DC5 /* rapidshare.com.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,7 @@
 		85DE7E7412BAE0F600DA33FF /* DLFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLFile.m; sourceTree = "<group>"; };
 		85DE7E7912BAE85C00DA33FF /* Hoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hoster.h; sourceTree = "<group>"; };
 		85DE7E7A12BAE85C00DA33FF /* Hoster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hoster.m; sourceTree = "<group>"; };
+		85F1B0B912C96492006E3DC5 /* rapidshare.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = rapidshare.com.plist; path = iDownloader.xcodeproj/hoster/rapidshare.com.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +215,7 @@
 		851468FA12B7E7AE00F8C663 = {
 			isa = PBXGroup;
 			children = (
+				85F1B0B812C96467006E3DC5 /* hoster */,
 				851044BD12BAA9CB00F7348B /* images */,
 				851044BC12BAA96A00F7348B /* ui */,
 				8514692912B7EC0A00F8C663 /* lib iDownloader */,
@@ -295,6 +298,14 @@
 				8510452312BAD47900F7348B /* DecyrptDLC.m */,
 			);
 			name = "lib iDownloader";
+			sourceTree = "<group>";
+		};
+		85F1B0B812C96467006E3DC5 /* hoster */ = {
+			isa = PBXGroup;
+			children = (
+				85F1B0B912C96492006E3DC5 /* rapidshare.com.plist */,
+			);
+			name = hoster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,6 +399,7 @@
 				8510450B12BAAAD200F7348B /* Knob Valid Blue.icns in Resources */,
 				8510450C12BAAAD200F7348B /* Knob Valid Green.icns in Resources */,
 				8510451E12BAB7B000F7348B /* iDownloader.icns in Resources */,
+				85F1B0BA12C96492006E3DC5 /* rapidshare.com.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

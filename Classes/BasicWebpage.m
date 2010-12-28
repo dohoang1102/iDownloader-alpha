@@ -25,23 +25,52 @@
     [super dealloc];
 }
 
-@synthesize url, hoster;
+@synthesize url, hoster, responseData;
 
 // TESTING
 - (IBAction)startDownloadingURL:(id)sender {
-    self.url = [NSURL URLWithString:@"http://www.google.de"];
+    self.url = [NSURL URLWithString:@"http://www.rapidshare.com"];
 
-    [self getLinks];
+    [self loadSource];
+}
+// END
+
+
+
+- (void)loadSource {
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:self.url
+                                                           cachePolicy:NSURLRequestReloadIgnoringLocalCacheData
+                                                       timeoutInterval:60];
+    
+    NSURLConnection *theConnection=[[NSURLConnection alloc] initWithRequest:request delegate:self];
+    if (!theConnection) {
+        // Inform the user that the connection failed.
+
+    } 
 }
 
-- (NSArray *)getLinks {
-    
-    //Example to download google's source and print out the urls of all the images
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+    responseData = [[NSMutableData alloc] init];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+    [responseData appendData:data];
+}
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+    [responseData release];
+    [connection release];
+    NSLog(@"Unable to fetch data");
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection 
+{
+    NSLog(@"Succeeded! Received %d bytes of data",[responseData
+                                                   length]);
     NSError * error = nil;
-    HTMLParser * parser = [[HTMLParser alloc] initWithContentsOfURL:self.url error:&error];
+    HTMLParser * parser = [[HTMLParser alloc] initWithData:responseData error:&error];
     
     if (error) {
-        
         NSLog(@"Error: %@", error);
     }
     HTMLNode * bodyNode = [parser body]; //Find the body tag
@@ -53,14 +82,16 @@
         
         [foundLinks addObject:[imageNode getAttributeNamed:@"href"]];
         
-        //NSLog(@"Found links with href: %@", [imageNode getAttributeNamed:@"href"]); //Echo the src=""
+        NSLog(@"Found links with href: %@", [imageNode getAttributeNamed:@"href"]); //Echo the href=""
     }
     
     [parser release];
     
     NSArray * fLinks = [[foundLinks copy] autorelease];
     
-    return fLinks;
+    [connection release];
+    [responseData release];
+    
 }
 
 @end

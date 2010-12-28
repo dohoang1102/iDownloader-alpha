@@ -12,14 +12,18 @@
 @interface BasicWebpage : NSObject {
     NSURL * url;
     Hoster * hoster;
+    NSMutableData * responseData;
 }
 
 @property (nonatomic, retain) NSURL * url;
 @property (nonatomic, retain) Hoster * hoster;
+@property (nonatomic, retain) NSMutableData * responseData;
 
 
 - (IBAction)startDownloadingURL:(id)sender;
 - (NSArray *)getLinks;
+- (void)loadSource;
+
 
 @end
 
