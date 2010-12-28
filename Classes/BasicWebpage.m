@@ -25,16 +25,15 @@
     [super dealloc];
 }
 
-@synthesize url, hoster, responseData;
-
-// TESTING
-- (IBAction)startDownloadingURL:(id)sender {
-    self.url = [NSURL URLWithString:@"http://www.rapidshare.com"];
-
-    [self loadSource];
+- (id) initWithUrl:(NSURL *)aUrl {
+    if ((self = [super init])) {
+        self.url = aUrl;
+    }
+    
+    return self;    
 }
-// END
 
+@synthesize url, hoster, responseData, links;
 
 
 - (void)loadSource {
@@ -82,12 +81,13 @@
         
         [foundLinks addObject:[imageNode getAttributeNamed:@"href"]];
         
-        NSLog(@"Found links with href: %@", [imageNode getAttributeNamed:@"href"]); //Echo the href=""
+        // For Debugging
+        // NSLog(@"Found links with href: %@", [imageNode getAttributeNamed:@"href"]);
     }
     
     [parser release];
     
-    NSArray * fLinks = [[foundLinks copy] autorelease];
+    self.links = [[foundLinks copy] autorelease];
     
     [connection release];
     [responseData release];

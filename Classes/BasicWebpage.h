@@ -13,15 +13,16 @@
     NSURL * url;
     Hoster * hoster;
     NSMutableData * responseData;
+    NSMutableArray * links;
 }
 
 @property (nonatomic, retain) NSURL * url;
 @property (nonatomic, retain) Hoster * hoster;
 @property (nonatomic, retain) NSMutableData * responseData;
+@property (nonatomic, retain) NSMutableArray * links;
 
+-(id)initWithUrl:(NSURL *) aUrl;
 
-- (IBAction)startDownloadingURL:(id)sender;
-- (NSArray *)getLinks;
 - (void)loadSource;
 
 
