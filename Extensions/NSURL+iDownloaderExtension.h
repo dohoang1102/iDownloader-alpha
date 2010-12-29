@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSURL ()  
-    -(void)extend;
+@interface NSURL (iDownloaderExtension)
+    - (BOOL) hasValidURL;
 
 @end
 
