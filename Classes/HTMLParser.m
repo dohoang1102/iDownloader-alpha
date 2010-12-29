@@ -37,7 +37,7 @@
 
 -(id)initWithString:(NSString*)string error:(NSError**)error
 { 
-	if (self = [super init])
+	if (self == [super init])
 	{
 		_doc = NULL;
 		
@@ -61,7 +61,7 @@
 
 -(id)initWithData:(NSData*)data error:(NSError**)error
 {
-	if (self = [super init])
+	if (self == [super init])
 	{
 		_doc = NULL;
 

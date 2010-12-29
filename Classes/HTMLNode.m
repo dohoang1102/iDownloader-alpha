@@ -280,7 +280,7 @@ NSString * getAttributeNamed(xmlNode * node, const char * nameStr)
 
 -(id)initWithXMLNode:(xmlNode*)xmlNode
 {
-	if (self = [super init])
+	if (self == [super init])
 	{
 		_node = xmlNode;
 	}
@@ -376,24 +376,25 @@ NSString * allNodeContents(xmlNode*node)
 	return allNodeContents(_node);
 }
 
+
 NSString * rawContentsOfNode(xmlNode * node)
 {	
 	xmlBufferPtr buffer = xmlBufferCreateSize(1000);
 	xmlOutputBufferPtr buf = xmlOutputBufferCreateBuffer(buffer, NULL);
-	
+    
 	htmlNodeDumpFormatOutput(buf, node->doc, node, node->doc->encoding);
-		
+    
 	xmlOutputBufferFlush(buf);
-		
+    
 	NSString * string = nil;
-	
+    
 	if (buffer->content) {
 		string = [[[NSString alloc] initWithBytes:(const void *)xmlBufferContent(buffer) length:xmlBufferLength(buffer) encoding:NSUTF8StringEncoding] autorelease];
 	}
-	
+    
 	xmlOutputBufferClose(buf);
 	xmlBufferFree(buffer);
-	
+    
 	return string;
 }
 
