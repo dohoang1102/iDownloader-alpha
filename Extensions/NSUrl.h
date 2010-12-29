@@ -1,5 +1,5 @@
 //
-//  NSUrl.h
+//  NSURL.h
 //  iDownloader
 //
 //  Created by Sebastian Hansack on 28.12.10.
@@ -8,9 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSURL : NSObject {
-@private
-    
-}
+@interface NSURL ()  
+    -(void)extend;
 
 @end
+

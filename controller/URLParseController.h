@@ -13,13 +13,13 @@
 @interface URLParseController : NSObject {
 @private
 
-    IBOutlet NSTextField * url;
+    IBOutlet NSTextField * tfUrl;
     
 }
 
 - (IBAction)startDownloadingURL:(id)sender;
 
-@property (retain, nonatomic) NSTextField * url;
+@property (retain, nonatomic) NSTextField * tfUrl;
 
 
 @end

@@ -25,11 +25,16 @@
     [super dealloc];
 }
 
-@synthesize url;
+@synthesize tfUrl;
 
 - (IBAction)startDownloadingURL:(id)sender {
     
-    NSURL * aUrl = [self.url stringValue];
+    [self.tfUrl stringValue]; 
+    
+    
+    NSURL * aUrl = [self.tfUrl stringValue];
+    
+    [aUrl extend];
     
     // Do not forget to controll the stringValue.
     // insert Code here

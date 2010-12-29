@@ -3,26 +3,20 @@
 //  iDownloader
 //
 //  Created by Sebastian Hansack on 28.12.10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010. All rights reserved.
 //
 
-#import "NSUrl.h"
-
+#import "NSURL.h"
 
 @implementation NSURL
-
-- (id)init {
-    if ((self = [super init])) {
-        // Initialization code here.
-    }
+// all the methods declared in the .h file and any superclass
+// overrides in this block
+// Implement private methods in this block as well.
+-(void)extend {
+    // implement private method here;
     
-    return self;
-}
-
-- (void)dealloc {
-    // Clean-up code here.
+    NSLog(@"works");
     
-    [super dealloc];
 }
 
 @end
