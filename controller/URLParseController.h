@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "BasicWebpage.h"
+#import "NSURL+iDownloaderExtension.h"
+
 
 
 @interface URLParseController : NSObject {

@@ -308,6 +308,7 @@
 							<string key="NSFrame">{{143, 491}, {96, 32}}</string>
 							<reference key="NSSuperview" ref="568628114"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="839930983">
 								<int key="NSCellFlags">67239424</int>
@@ -333,7 +334,7 @@
 							<string key="NSFrame">{{82, 548}, {388, 22}}</string>
 							<reference key="NSSuperview" ref="568628114"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="1055677552"/>
+							<reference key="NSNextKeyView" ref="913754192"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="565570447">
 								<int key="NSCellFlags">-1804468671</int>
@@ -368,6 +369,7 @@
 							<string key="NSFrame">{{82, 548}, {388, 22}}</string>
 							<reference key="NSSuperview" ref="568628114"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView" ref="1055677552"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="620093036">
 								<int key="NSCellFlags">-1804468671</int>
@@ -417,14 +419,6 @@
 					<int key="connectionID">18</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">startDownloadingURL:</string>
-						<reference key="source" ref="1035949022"/>
-						<reference key="destination" ref="1055677552"/>
-					</object>
-					<int key="connectionID">100040</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">url</string>
 						<reference key="source" ref="1035949022"/>
@@ -433,12 +427,20 @@
 					<int key="connectionID">100041</int>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">startDownloadingURL:</string>
+						<reference key="source" ref="1035949022"/>
+						<reference key="destination" ref="1055677552"/>
+					</object>
+					<int key="connectionID">100045</int>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">tfUrl</string>
 						<reference key="source" ref="1035949022"/>
 						<reference key="destination" ref="913754192"/>
 					</object>
-					<int key="connectionID">100044</int>
+					<int key="connectionID">100046</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -673,7 +675,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">100044</int>
+			<int key="maxID">100046</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

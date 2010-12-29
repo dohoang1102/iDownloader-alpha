@@ -32,9 +32,13 @@
     [self.tfUrl stringValue]; 
     
     
-    NSURL * aUrl = [self.tfUrl stringValue];
+    NSURL * aUrl = [[NSURL alloc] initWithString:[self.tfUrl stringValue]];
     
-    [aUrl extend];
+    // If the url ist noch Valid 
+    // do something, this is something to implantete LATER (Word of the Day)
+    if (![aUrl hasValidURL]) {
+        
+    }
     
     // Do not forget to controll the stringValue.
     // insert Code here

@@ -82,7 +82,7 @@
         [foundLinks addObject:[imageNode getAttributeNamed:@"href"]];
         
         // For Debugging
-        // NSLog(@"Found links with href: %@", [imageNode getAttributeNamed:@"href"]);
+         NSLog(@"Found links with href: %@", [imageNode getAttributeNamed:@"href"]);
     }
     
     [parser release];

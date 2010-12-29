@@ -60,11 +60,11 @@
 		8514692112B7E7AE00F8C663 /* iDownloader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8514691F12B7E7AE00F8C663 /* iDownloader.xib */; };
 		8514692312B7E7AE00F8C663 /* iDownloader.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */; };
 		8514693512B7FAA800F8C663 /* BasicWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514693412B7FAA800F8C663 /* BasicWebpage.m */; };
+		85DCD81112CBD15B00223887 /* NSURL+iDownloaderExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DCD80F12CBD15B00223887 /* NSURL+iDownloaderExtension.m */; };
 		85DE7E7512BAE0F600DA33FF /* DLFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE7E7412BAE0F600DA33FF /* DLFile.m */; };
 		85DE7E7B12BAE85C00DA33FF /* Hoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE7E7A12BAE85C00DA33FF /* Hoster.m */; };
 		85F1B0BA12C96492006E3DC5 /* rapidshare.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85F1B0B912C96492006E3DC5 /* rapidshare.com.plist */; };
 		85F1B0C712CA42CC006E3DC5 /* URLParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F1B0C612CA42CC006E3DC5 /* URLParseController.m */; };
-		85F1B0CB12CA5FA9006E3DC5 /* NSUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F1B0CA12CA5FA9006E3DC5 /* NSUrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +129,8 @@
 		8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iDownloader.xcdatamodel; sourceTree = "<group>"; };
 		8514693312B7FAA800F8C663 /* BasicWebpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicWebpage.h; path = Classes/BasicWebpage.h; sourceTree = "<group>"; };
 		8514693412B7FAA800F8C663 /* BasicWebpage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicWebpage.m; path = Classes/BasicWebpage.m; sourceTree = "<group>"; };
+		85DCD80F12CBD15B00223887 /* NSURL+iDownloaderExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+iDownloaderExtension.m"; path = "Extensions/NSURL+iDownloaderExtension.m"; sourceTree = "<group>"; };
+		85DCD81012CBD15B00223887 /* NSURL+iDownloaderExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+iDownloaderExtension.h"; path = "Extensions/NSURL+iDownloaderExtension.h"; sourceTree = "<group>"; };
 		85DE7E7312BAE0F600DA33FF /* DLFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLFile.h; sourceTree = "<group>"; };
 		85DE7E7412BAE0F600DA33FF /* DLFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLFile.m; sourceTree = "<group>"; };
 		85DE7E7912BAE85C00DA33FF /* Hoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hoster.h; sourceTree = "<group>"; };
@@ -136,8 +138,6 @@
 		85F1B0B912C96492006E3DC5 /* rapidshare.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = rapidshare.com.plist; path = iDownloader.xcodeproj/hoster/rapidshare.com.plist; sourceTree = "<group>"; };
 		85F1B0C512CA42CC006E3DC5 /* URLParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLParseController.h; path = controller/URLParseController.h; sourceTree = "<group>"; };
 		85F1B0C612CA42CC006E3DC5 /* URLParseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URLParseController.m; path = controller/URLParseController.m; sourceTree = "<group>"; };
-		85F1B0C912CA5FA9006E3DC5 /* NSUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSUrl.h; path = Extensions/NSUrl.h; sourceTree = "<group>"; };
-		85F1B0CA12CA5FA9006E3DC5 /* NSUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSUrl.m; path = Extensions/NSUrl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,8 +328,8 @@
 		85F1B0C812CA5F7D006E3DC5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				85F1B0C912CA5FA9006E3DC5 /* NSUrl.h */,
-				85F1B0CA12CA5FA9006E3DC5 /* NSUrl.m */,
+				85DCD80F12CBD15B00223887 /* NSURL+iDownloaderExtension.m */,
+				85DCD81012CBD15B00223887 /* NSURL+iDownloaderExtension.h */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -446,7 +446,7 @@
 				85DE7E7512BAE0F600DA33FF /* DLFile.m in Sources */,
 				85DE7E7B12BAE85C00DA33FF /* Hoster.m in Sources */,
 				85F1B0C712CA42CC006E3DC5 /* URLParseController.m in Sources */,
-				85F1B0CB12CA5FA9006E3DC5 /* NSUrl.m in Sources */,
+				85DCD81112CBD15B00223887 /* NSURL+iDownloaderExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +534,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDownloader-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "iDownloader-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -554,6 +555,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDownloader-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "iDownloader-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "$(TARGET_NAME)";

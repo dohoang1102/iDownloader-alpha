@@ -32,14 +32,10 @@
 }
 
 - (NSURL *)findDownloadURL {
-    BasicWebpage * aWebpage = self.webpage;
-    Hoster * hoster = aWebpage.hoster;
-    
-    NSArray * allLinks = [aWebpage getLinks];
-    
+    // TODO
     // Insert Code here
     
-    
+    return nil;
 }
 
 @end
