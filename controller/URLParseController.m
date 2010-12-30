@@ -29,17 +29,20 @@
 
 - (IBAction)startDownloadingURL:(id)sender {
     
-    [self.tfUrl stringValue]; 
+    // Save the URl as UTF-8
+    NSURL * aUrl = [[NSURL alloc] initWithString:[[self.tfUrl stringValue] stringByAddingPercentEscapesUsingEncoding: NSUTF8StringEncoding]];
     
+    // Debug
+    NSLog(@"tfUrl: %@", aUrl);    
     
-    NSURL * aUrl = [[NSURL alloc] initWithString:[self.tfUrl stringValue]];
-    
+    // TODO
     // If the url ist noch Valid 
     // do something, this is something to implantete LATER (Word of the Day)
     if (![aUrl hasValidURL]) {
         
     }
     
+    // TODO
     // Do not forget to controll the stringValue.
     // insert Code here
     

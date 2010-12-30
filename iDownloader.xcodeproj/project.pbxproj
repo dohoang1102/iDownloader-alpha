@@ -60,6 +60,7 @@
 		8514692112B7E7AE00F8C663 /* iDownloader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8514691F12B7E7AE00F8C663 /* iDownloader.xib */; };
 		8514692312B7E7AE00F8C663 /* iDownloader.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */; };
 		8514693512B7FAA800F8C663 /* BasicWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514693412B7FAA800F8C663 /* BasicWebpage.m */; };
+		851A615B12CD209B0057C63B /* wget in Resources */ = {isa = PBXBuildFile; fileRef = 851A615A12CD209B0057C63B /* wget */; };
 		85DCD81112CBD15B00223887 /* NSURL+iDownloaderExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DCD80F12CBD15B00223887 /* NSURL+iDownloaderExtension.m */; };
 		85DE7E7512BAE0F600DA33FF /* DLFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE7E7412BAE0F600DA33FF /* DLFile.m */; };
 		85DE7E7B12BAE85C00DA33FF /* Hoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE7E7A12BAE85C00DA33FF /* Hoster.m */; };
@@ -129,6 +130,7 @@
 		8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iDownloader.xcdatamodel; sourceTree = "<group>"; };
 		8514693312B7FAA800F8C663 /* BasicWebpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicWebpage.h; path = Classes/BasicWebpage.h; sourceTree = "<group>"; };
 		8514693412B7FAA800F8C663 /* BasicWebpage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicWebpage.m; path = Classes/BasicWebpage.m; sourceTree = "<group>"; };
+		851A615A12CD209B0057C63B /* wget */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = wget; sourceTree = "<group>"; };
 		85DCD80F12CBD15B00223887 /* NSURL+iDownloaderExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+iDownloaderExtension.m"; path = "Extensions/NSURL+iDownloaderExtension.m"; sourceTree = "<group>"; };
 		85DCD81012CBD15B00223887 /* NSURL+iDownloaderExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+iDownloaderExtension.h"; path = "Extensions/NSURL+iDownloaderExtension.h"; sourceTree = "<group>"; };
 		85DE7E7312BAE0F600DA33FF /* DLFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLFile.h; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 		8514690412B7E7AE00F8C663 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				851A615A12CD209B0057C63B /* wget */,
 				8514690F12B7E7AE00F8C663 /* iDownloader-Info.plist */,
 				8514691112B7E7AE00F8C663 /* InfoPlist.strings */,
 				8514691912B7E7AE00F8C663 /* Credits.rtf */,
@@ -328,8 +331,8 @@
 		85F1B0C812CA5F7D006E3DC5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				85DCD80F12CBD15B00223887 /* NSURL+iDownloaderExtension.m */,
 				85DCD81012CBD15B00223887 /* NSURL+iDownloaderExtension.h */,
+				85DCD80F12CBD15B00223887 /* NSURL+iDownloaderExtension.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				8510450C12BAAAD200F7348B /* Knob Valid Green.icns in Resources */,
 				8510451E12BAB7B000F7348B /* iDownloader.icns in Resources */,
 				85F1B0BA12C96492006E3DC5 /* rapidshare.com.plist in Resources */,
+				851A615B12CD209B0057C63B /* wget in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
