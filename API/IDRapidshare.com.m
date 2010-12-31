@@ -1,15 +1,15 @@
 //
-//  DecyrptDLC.m
+//  IDRapidshare.com.m
 //  iDownloader
 //
-//  Created by Sebastian Hansack on 17.12.10.
+//  Created by Sebastian Hansack on 30.12.10.
 //  Copyright 2010. All rights reserved.
 //
 
-#import "DecyrptDLC.h"
+#import "IDRapidshare.com.h"
 
 
-@implementation DecyrptDLC
+@implementation IDRapidshare_com
 
 - (id) init {
 	if ( (self = [super init]) ) {

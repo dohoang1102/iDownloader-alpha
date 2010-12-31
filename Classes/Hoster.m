@@ -11,18 +11,18 @@
 
 @implementation Hoster
 
-- (id)init:(NSURL *) downloadFile {
-    if ((self = [super init])) {
-        // Initialization code here.
-    }
-    
-    return self;
+- (id) init: (NSURL *) downloadFile {
+	if ( (self = [super init]) ) {
+		// Initialization code here.
+	}
+
+	return self;
 }
 
-- (void)dealloc {
-    // Clean-up code here.
-    
-    [super dealloc];
+- (void) dealloc {
+	// Clean-up code here.
+
+	[super dealloc];
 }
 
 @end

@@ -10,8 +10,7 @@
 
 
 @interface DecyrptDLC : NSObject {
-@private
-    
+	@private
 }
 
 @end

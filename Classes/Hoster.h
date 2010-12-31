@@ -10,10 +10,6 @@
 
 
 @interface Hoster : NSObject {
-
-    
-    
-    
 }
 
 @end
