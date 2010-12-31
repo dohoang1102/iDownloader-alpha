@@ -5,6 +5,8 @@
 //  Created by Sebastian Hansack on 30.12.10.
 //  Copyright 2010. All rights reserved.
 //
+//  Based on a Shellscript of Sebastian Wicki <gandro@gmx.net>
+//
 
 #import "IDRapidshare.com.h"
 
