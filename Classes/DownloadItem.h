@@ -40,22 +40,22 @@
 
 	id delegate;
 }
-/// return true if this item is downloading
+// return true if this item is downloading
 - (BOOL) isDownloading;
-/// return filename of item
+// return filename of item
 - (NSString *) fileName;
-/// icon file of this file. icon is specified by file extension
+// icon file of this file. icon is specified by file extension
 - (NSImage *) icon;
-/// return all log
+// return all log
 - (NSString *) logString;
-/// return last line of log
+// return last line of log
 - (NSString *) lastLogLine;
 
-/// start downloadging
+// start downloadging
 - (void) startDownload;
-/// stop downloading
+// stop downloading
 - (void) stopDownload;
-/// if downloadin stop downloading, otherwise start downloading
+// if downloadin stop downloading, otherwise start downloading
 - (void) startStop;
 
 
