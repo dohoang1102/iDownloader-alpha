@@ -1,15 +1,14 @@
 //
-//  DecyrptDLC.m
+//  iDownloadFile.m
 //  iDownloader
 //
-//  Created by Sebastian Hansack on 17.12.10.
+//  Created by Sebastian Hansack on 31.12.10.
 //  Copyright 2010. All rights reserved.
 //
 
-#import "DecyrptDLC.h"
+#import "iDownloadFile.h"
 
-
-@implementation DecyrptDLC
+@implementation iDownloadFile
 
 - (id) init {
 	if ( (self = [super init]) ) {
@@ -23,6 +22,14 @@
 	// Clean-up code here.
 
 	[super dealloc];
+}
+
+// Idee: soll einen curltask mit der url absetzen
+
+- (IBAction) go: (id) sender {
+
+    aCURLHandle setURL:
+
 }
 
 @end

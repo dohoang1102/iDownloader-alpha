@@ -50,7 +50,6 @@
 		8510450B12BAAAD200F7348B /* Knob Valid Blue.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044E412BAAAD200F7348B /* Knob Valid Blue.icns */; };
 		8510450C12BAAAD200F7348B /* Knob Valid Green.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044E512BAAAD200F7348B /* Knob Valid Green.icns */; };
 		8510451E12BAB7B000F7348B /* iDownloader.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8510451D12BAB7B000F7348B /* iDownloader.icns */; };
-		8510452412BAD47900F7348B /* DecyrptDLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8510452312BAD47900F7348B /* DecyrptDLC.m */; };
 		8514690E12B7E7AE00F8C663 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514690D12B7E7AE00F8C663 /* Cocoa.framework */; };
 		8514691312B7E7AE00F8C663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8514691112B7E7AE00F8C663 /* InfoPlist.strings */; };
 		8514691512B7E7AE00F8C663 /* iDownloader-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514691412B7E7AE00F8C663 /* iDownloader-main.m */; };
@@ -60,13 +59,10 @@
 		8514692112B7E7AE00F8C663 /* iDownloader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8514691F12B7E7AE00F8C663 /* iDownloader.xib */; };
 		8514692312B7E7AE00F8C663 /* iDownloader.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */; };
 		8514693512B7FAA800F8C663 /* BasicWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514693412B7FAA800F8C663 /* BasicWebpage.m */; };
-		851A615B12CD209B0057C63B /* wget in Resources */ = {isa = PBXBuildFile; fileRef = 851A615A12CD209B0057C63B /* wget */; };
-		851A615F12CD27CC0057C63B /* IDRapidshare.com.m in Sources */ = {isa = PBXBuildFile; fileRef = 851A615E12CD27CC0057C63B /* IDRapidshare.com.m */; };
-		851A616212CD283A0057C63B /* DownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 851A616112CD283A0057C63B /* DownloadItem.m */; };
+		85AD5D7C12CE58A800F4166C /* iDownloadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AD5D7B12CE58A800F4166C /* iDownloadFile.m */; };
 		85DCD81112CBD15B00223887 /* NSURL+iDownloaderExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DCD80F12CBD15B00223887 /* NSURL+iDownloaderExtension.m */; };
-		85DE7E7B12BAE85C00DA33FF /* Hoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE7E7A12BAE85C00DA33FF /* Hoster.m */; };
 		85E5F3DA12CE038D00592C8E /* rapidshare.sh in Resources */ = {isa = PBXBuildFile; fileRef = 85E5F3D912CE038D00592C8E /* rapidshare.sh */; };
-		85F1B0BA12C96492006E3DC5 /* rapidshare.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85F1B0B912C96492006E3DC5 /* rapidshare.com.plist */; };
+		85ED85E012CE533400928B05 /* CURLHandle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ED85DF12CE533400928B05 /* CURLHandle.framework */; };
 		85F1B0C712CA42CC006E3DC5 /* URLParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F1B0C612CA42CC006E3DC5 /* URLParseController.m */; };
 /* End PBXBuildFile section */
 
@@ -116,8 +112,6 @@
 		851044E412BAAAD200F7348B /* Knob Valid Blue.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Valid Blue.icns"; sourceTree = "<group>"; };
 		851044E512BAAAD200F7348B /* Knob Valid Green.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Valid Green.icns"; sourceTree = "<group>"; };
 		8510451D12BAB7B000F7348B /* iDownloader.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iDownloader.icns; sourceTree = "<group>"; };
-		8510452212BAD47900F7348B /* DecyrptDLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecyrptDLC.h; path = Classes/DecyrptDLC.h; sourceTree = "<group>"; };
-		8510452312BAD47900F7348B /* DecyrptDLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DecyrptDLC.m; path = Classes/DecyrptDLC.m; sourceTree = "<group>"; };
 		8514690A12B7E7AE00F8C663 /* iDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8514690D12B7E7AE00F8C663 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8514690F12B7E7AE00F8C663 /* iDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDownloader-Info.plist"; sourceTree = "<group>"; };
@@ -132,17 +126,12 @@
 		8514692212B7E7AE00F8C663 /* iDownloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iDownloader.xcdatamodel; sourceTree = "<group>"; };
 		8514693312B7FAA800F8C663 /* BasicWebpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicWebpage.h; path = Classes/BasicWebpage.h; sourceTree = "<group>"; };
 		8514693412B7FAA800F8C663 /* BasicWebpage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicWebpage.m; path = Classes/BasicWebpage.m; sourceTree = "<group>"; };
-		851A615A12CD209B0057C63B /* wget */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = wget; sourceTree = "<group>"; };
-		851A615D12CD27CC0057C63B /* IDRapidshare.com.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDRapidshare.com.h; path = API/IDRapidshare.com.h; sourceTree = "<group>"; };
-		851A615E12CD27CC0057C63B /* IDRapidshare.com.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IDRapidshare.com.m; path = API/IDRapidshare.com.m; sourceTree = "<group>"; };
-		851A616012CD283A0057C63B /* DownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadItem.h; sourceTree = "<group>"; };
-		851A616112CD283A0057C63B /* DownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadItem.m; sourceTree = "<group>"; };
+		85AD5D7A12CE58A800F4166C /* iDownloadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDownloadFile.h; sourceTree = "<group>"; };
+		85AD5D7B12CE58A800F4166C /* iDownloadFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDownloadFile.m; sourceTree = "<group>"; };
 		85DCD80F12CBD15B00223887 /* NSURL+iDownloaderExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+iDownloaderExtension.m"; path = "Extensions/NSURL+iDownloaderExtension.m"; sourceTree = "<group>"; };
 		85DCD81012CBD15B00223887 /* NSURL+iDownloaderExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+iDownloaderExtension.h"; path = "Extensions/NSURL+iDownloaderExtension.h"; sourceTree = "<group>"; };
-		85DE7E7912BAE85C00DA33FF /* Hoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hoster.h; sourceTree = "<group>"; };
-		85DE7E7A12BAE85C00DA33FF /* Hoster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hoster.m; sourceTree = "<group>"; };
 		85E5F3D912CE038D00592C8E /* rapidshare.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = rapidshare.sh; path = iDownloader.xcodeproj/ressources/rapidshare.sh; sourceTree = "<group>"; };
-		85F1B0B912C96492006E3DC5 /* rapidshare.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = rapidshare.com.plist; path = iDownloader.xcodeproj/hoster/rapidshare.com.plist; sourceTree = "<group>"; };
+		85ED85DF12CE533400928B05 /* CURLHandle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CURLHandle.framework; path = Frameworks/CURLHandle.framework; sourceTree = "<group>"; };
 		85F1B0C512CA42CC006E3DC5 /* URLParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLParseController.h; path = controller/URLParseController.h; sourceTree = "<group>"; };
 		85F1B0C612CA42CC006E3DC5 /* URLParseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URLParseController.m; path = controller/URLParseController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85ED85E012CE533400928B05 /* CURLHandle.framework in Frameworks */,
 				851044BB12BA93DB00F7348B /* libxml2.dylib in Frameworks */,
 				8514690E12B7E7AE00F8C663 /* Cocoa.framework in Frameworks */,
 			);
@@ -231,7 +221,6 @@
 				851A615C12CD278F0057C63B /* API´s */,
 				85F1B0C812CA5F7D006E3DC5 /* Extensions */,
 				85F1B0C412CA428B006E3DC5 /* controller */,
-				85F1B0B812C96467006E3DC5 /* hoster */,
 				851044BD12BAA9CB00F7348B /* images */,
 				851044BC12BAA96A00F7348B /* ui */,
 				8514692912B7EC0A00F8C663 /* lib iDownloader */,
@@ -255,12 +244,10 @@
 		8514690212B7E7AE00F8C663 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				85AD5D7A12CE58A800F4166C /* iDownloadFile.h */,
+				85AD5D7B12CE58A800F4166C /* iDownloadFile.m */,
 				8514691C12B7E7AE00F8C663 /* iDownloader.h */,
 				8514691D12B7E7AE00F8C663 /* iDownloader.m */,
-				851A616012CD283A0057C63B /* DownloadItem.h */,
-				851A616112CD283A0057C63B /* DownloadItem.m */,
-				85DE7E7912BAE85C00DA33FF /* Hoster.h */,
-				85DE7E7A12BAE85C00DA33FF /* Hoster.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -278,7 +265,6 @@
 			isa = PBXGroup;
 			children = (
 				85E5F3D912CE038D00592C8E /* rapidshare.sh */,
-				851A615A12CD209B0057C63B /* wget */,
 				8514690F12B7E7AE00F8C663 /* iDownloader-Info.plist */,
 				8514691112B7E7AE00F8C663 /* InfoPlist.strings */,
 				8514691912B7E7AE00F8C663 /* Credits.rtf */,
@@ -290,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				851044BA12BA93DB00F7348B /* libxml2.dylib */,
+				85ED85DF12CE533400928B05 /* CURLHandle.framework */,
 				8514690D12B7E7AE00F8C663 /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -312,8 +299,6 @@
 				851044B712BA93B800F7348B /* HTMLParser.m */,
 				8514693312B7FAA800F8C663 /* BasicWebpage.h */,
 				8514693412B7FAA800F8C663 /* BasicWebpage.m */,
-				8510452212BAD47900F7348B /* DecyrptDLC.h */,
-				8510452312BAD47900F7348B /* DecyrptDLC.m */,
 			);
 			name = "lib iDownloader";
 			sourceTree = "<group>";
@@ -321,18 +306,8 @@
 		851A615C12CD278F0057C63B /* API´s */ = {
 			isa = PBXGroup;
 			children = (
-				851A615D12CD27CC0057C63B /* IDRapidshare.com.h */,
-				851A615E12CD27CC0057C63B /* IDRapidshare.com.m */,
 			);
 			name = "API´s";
-			sourceTree = "<group>";
-		};
-		85F1B0B812C96467006E3DC5 /* hoster */ = {
-			isa = PBXGroup;
-			children = (
-				85F1B0B912C96492006E3DC5 /* rapidshare.com.plist */,
-			);
-			name = hoster;
 			sourceTree = "<group>";
 		};
 		85F1B0C412CA428B006E3DC5 /* controller */ = {
@@ -444,8 +419,6 @@
 				8510450B12BAAAD200F7348B /* Knob Valid Blue.icns in Resources */,
 				8510450C12BAAAD200F7348B /* Knob Valid Green.icns in Resources */,
 				8510451E12BAB7B000F7348B /* iDownloader.icns in Resources */,
-				85F1B0BA12C96492006E3DC5 /* rapidshare.com.plist in Resources */,
-				851A615B12CD209B0057C63B /* wget in Resources */,
 				85E5F3DA12CE038D00592C8E /* rapidshare.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,12 +436,9 @@
 				8514693512B7FAA800F8C663 /* BasicWebpage.m in Sources */,
 				851044B812BA93B800F7348B /* HTMLNode.m in Sources */,
 				851044B912BA93B800F7348B /* HTMLParser.m in Sources */,
-				8510452412BAD47900F7348B /* DecyrptDLC.m in Sources */,
-				85DE7E7B12BAE85C00DA33FF /* Hoster.m in Sources */,
 				85F1B0C712CA42CC006E3DC5 /* URLParseController.m in Sources */,
 				85DCD81112CBD15B00223887 /* NSURL+iDownloaderExtension.m in Sources */,
-				851A615F12CD27CC0057C63B /* IDRapidshare.com.m in Sources */,
-				851A616212CD283A0057C63B /* DownloadItem.m in Sources */,
+				85AD5D7C12CE58A800F4166C /* iDownloadFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,12 +521,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDownloader-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "iDownloader-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -573,11 +544,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDownloader-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "iDownloader-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "$(TARGET_NAME)";

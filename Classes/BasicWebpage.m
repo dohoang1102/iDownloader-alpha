@@ -33,7 +33,7 @@
 	return self;
 }
 
-@synthesize url, hoster, responseData, links;
+@synthesize url, responseData, links;
 
 
 - (void)loadSource {
