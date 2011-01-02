@@ -46,14 +46,19 @@
     // Do not forget to controll the stringValue.
     // insert Code here
     
+    HosterFactory *hf = [[HosterFactory alloc] init];
+    
+    [hf getHosterFromURL: aUrl];
+    
+    
     //BasicWebpage * webpage = [[BasicWebpage alloc] initWithURL:aUrl];
     
     //[webpage loadSource];
     
-    rapidshare_com * rs = [[rapidshare_com alloc ] initWithURL:aUrl];
+    //rapidshare_com * rs = [[rapidshare_com alloc ] initWithURL:aUrl];
     
-    [rs getFileInfo];
-    [rs getDownload];
+    //[rs getFileInfo];
+    //[rs getDownload];
      
 }
 

@@ -18,9 +18,9 @@ static NSString *const apiArgs = @"";
 
 @synthesize baseURL;
 
-- (id) initWithURL: (NSURL *) aUrl {
+- (id) initWithURL: (NSURL *) aURL {
 	if ( (self = [super init]) ) {
-		self.baseURL = aUrl;
+		self.baseURL = aURL;
 	}
 
 	return self;
@@ -89,9 +89,10 @@ static NSString *const apiArgs = @"";
     
     NSArray *responseArray = [responseString componentsSeparatedByString: @","];
     
-    NSInteger *timer = [responseArray objectAtIndex:2];
+    NSDate *downloadAble = [[[NSDate alloc ] init] dateByAddingTimeInterval:[[responseArray objectAtIndex:2] intValue]];
     
     #ifdef DEBUG
+    int timer = [[responseArray objectAtIndex:2] intValue];
 	NSLog(@"Countdown: %@", timer);
     #endif
     

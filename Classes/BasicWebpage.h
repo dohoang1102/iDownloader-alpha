@@ -18,7 +18,7 @@
 @property (nonatomic, retain) NSMutableData *responseData;
 @property (nonatomic, retain) NSMutableArray *links;
 
-- (id) initWithUrl: (NSURL *) aUrl;
+- (id) initWithURL: (NSURL *) aUrl;
 
 - (void) loadSource;
 

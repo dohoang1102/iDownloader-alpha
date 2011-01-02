@@ -29,7 +29,11 @@
 - (IBAction) goWithURL: (NSURL *) aURL {
 	[aCURLHandle setURL: aURL];
     
-    [aCURLHandle loadInBackground];
+    //[aCURLHandle loadInBackground];
+}
+
+- (void) pause:(id)sender {
+    
 }
 
 @end
