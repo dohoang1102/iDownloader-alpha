@@ -25,7 +25,7 @@
 	[super dealloc];
 }
 
-- (id)initWithUrl:(NSURL *)aUrl {
+- (id)initWithURL:(NSURL *)aUrl {
 	if ((self = [super init])) {
 		self.url = aUrl;
 	}

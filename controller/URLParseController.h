@@ -10,7 +10,7 @@
 #import "BasicWebpage.h"
 #import "NSURL+iDownloaderExtension.h"
 
-
+#import "rapidshare.com.h"
 
 @interface URLParseController : NSObject {
 @private

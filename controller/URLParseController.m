@@ -30,7 +30,7 @@
 - (IBAction)startDownloadingURL:(id)sender {
     
     // Save the URl as UTF-8
-    NSURL * aUrl = [[NSURL alloc] initWithString:[[self.tfUrl stringValue] stringByAddingPercentEscapesUsingEncoding: NSUTF8StringEncoding]];
+    NSURL * aUrl = [[NSURL alloc] initWithString:[self.tfUrl stringValue]];
     
     // Debug
     NSLog(@"tfUrl: %@", aUrl);    
@@ -41,16 +41,19 @@
     if (![aUrl hasValidURL]) {
         
     }
-    
+        
     // TODO
     // Do not forget to controll the stringValue.
     // insert Code here
     
-    BasicWebpage * webpage = [[BasicWebpage alloc] initWithUrl:aUrl];
+    //BasicWebpage * webpage = [[BasicWebpage alloc] initWithURL:aUrl];
     
-    [webpage loadSource];
+    //[webpage loadSource];
     
+    rapidshare_com * rs = [[rapidshare_com alloc ] initWithURL:aUrl];
     
+    [rs getFileInfo];
+    [rs getDownload];
      
 }
 

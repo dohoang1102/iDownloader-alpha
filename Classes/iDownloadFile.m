@@ -26,10 +26,10 @@
 
 // Idee: soll einen curltask mit der url absetzen
 
-- (IBAction) go: (id) sender {
-
-    aCURLHandle setURL:
-
+- (IBAction) goWithURL: (NSURL *) aURL {
+	[aCURLHandle setURL: aURL];
+    
+    [aCURLHandle loadInBackground];
 }
 
 @end
