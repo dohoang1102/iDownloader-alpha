@@ -10,8 +10,8 @@
 
 
 @interface Hoster : NSObject {
-@private
-    
+
+    NSDate *StartDownloadAt;
 }
 
 - (id) initWithURL: (NSURL *) aURL;
