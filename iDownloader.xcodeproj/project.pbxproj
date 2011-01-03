@@ -391,7 +391,6 @@
 			isa = PBXProject;
 			buildConfigurationList = 851468FF12B7E7AE00F8C663 /* Build configuration list for PBXProject "iDownloader" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,

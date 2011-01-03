@@ -96,9 +96,18 @@ t1292349486
 s979
 i"iDownloader.h"
 
+N/Users/sHansack/Xcode/iDownloader/Frameworks/CURLHandle.framework
+c000000004D20CA0F00000000000000CC
+t1293994511
+s204
+
 N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app
 t1292524121
 s102
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Frameworks/CURLHandle.framework
+t2
+s0
 
 N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Info.plist
 t1292524121
@@ -111,6 +120,166 @@ s0
 N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/PkgInfo
 t1292524121
 s8
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/API rapidshare.com.rtf
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Add.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Attention.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Blue.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Cancel.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Download.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Fast Forward.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Fast Rewind.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Favorite.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Forward.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Graphite.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Green.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Grey.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Help.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Info.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Left.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Loop Off.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Loop On.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Message.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Orange.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Pause.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Play Green.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Play.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Purple.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Record Off.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Record On.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Red.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Refresh.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Remove Red.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Remove.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Search.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Shuffle Off.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Shuffle On.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Smart.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Snapback.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Snapforward.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Stop.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Upload.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Valid Blue.icns
+t2
+s0
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/Knob Valid Green.icns
+t2
+s0
 
 N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj/Credits.rtf
 t1292524127
@@ -128,9 +297,17 @@ N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resource
 t1292524127
 s4462
 
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/iDownloader.icns
+t2
+s0
+
 N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/iDownloader.mom
 t1292524126
 s488
+
+N/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/rapidshare.sh
+t2
+s0
 
 N/Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/i386/BasicWebpage.o
 t1292524259
@@ -198,9 +375,9 @@ t1292349486
 s175598
 
 N/Users/sHansack/Xcode/iDownloader/en.lproj/iDownloader.xib
-c000000004D0A373600000000000037D3
-t1292515126
-s14291
+c000000004D21168A000000000000A892
+t1294014090
+s43154
 
 N/Users/sHansack/Xcode/iDownloader/iDownloader-Prefix.pch
 c000000004D07B02E0000000000000099
@@ -214,10 +391,220 @@ t1292349486
 s275
 i<Cocoa/Cocoa.h>
 
+N/Users/sHansack/Xcode/iDownloader/iDownloader.icns
+c000000004D0A7EBE000000000001DA6E
+t1292533438
+s121454
+
 N/Users/sHansack/Xcode/iDownloader/iDownloader.xcdatamodel
 c000000004CDC612E0000000000000088
 t1289511214
 s136
+
+N/Users/sHansack/Xcode/iDownloader/iDownloader.xcodeproj/ressources/API rapidshare.com.rtf
+c000000004D20CA0F0000000000013E5B
+t1293994511
+s81499
+
+N/Users/sHansack/Xcode/iDownloader/iDownloader.xcodeproj/ressources/rapidshare.sh
+c000000004D1DCC3E0000000000001830
+t1293798462
+s6192
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Add.icns
+c000000004779A4420000000000000C47
+t1199154242
+s3143
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Attention.icns
+c000000004779A4420000000000000CDC
+t1199154242
+s3292
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Blue.icns
+c000000004779A4420000000000000BB3
+t1199154242
+s2995
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Cancel.icns
+c000000004779A4420000000000000C2F
+t1199154242
+s3119
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Download.icns
+c000000004779A4420000000000000CC7
+t1199154242
+s3271
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Fast Forward.icns
+c000000004779A4420000000000000CFC
+t1199154242
+s3324
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Fast Rewind.icns
+c000000004779A4420000000000000CF5
+t1199154242
+s3317
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Favorite.icns
+c000000004779A4420000000000000CE9
+t1199154242
+s3305
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Forward.icns
+c000000004779A4420000000000000C73
+t1199154242
+s3187
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Graphite.icns
+c000000004779A4420000000000000C00
+t1199154242
+s3072
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Green.icns
+c000000004779A4420000000000000B85
+t1199154242
+s2949
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Grey.icns
+c000000004779A4420000000000000BFB
+t1199154242
+s3067
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Help.icns
+c000000004779A4420000000000000C8F
+t1199154242
+s3215
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Info.icns
+c000000004779A4420000000000000C7B
+t1199154242
+s3195
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Left.icns
+c000000004779A4420000000000000C67
+t1199154242
+s3175
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Loop Off.icns
+c000000004779A4420000000000000D4B
+t1199154242
+s3403
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Loop On.icns
+c000000004779A4420000000000000DDD
+t1199154242
+s3549
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Message.icns
+c000000004779A4420000000000000C64
+t1199154242
+s3172
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Orange.icns
+c000000004779A4420000000000000BD1
+t1199154242
+s3025
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Pause.icns
+c000000004779A4420000000000000C87
+t1199154242
+s3207
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Play Green.icns
+c000000004779A4420000000000000CAD
+t1199154242
+s3245
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Play.icns
+c000000004779A4420000000000000CBA
+t1199154242
+s3258
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Purple.icns
+c000000004779A4420000000000000BF4
+t1199154242
+s3060
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Record Off.icns
+c000000004779A4420000000000000C97
+t1199154242
+s3223
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Record On.icns
+c000000004779A4420000000000000DBA
+t1199154242
+s3514
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Red.icns
+c000000004779A4420000000000000B8A
+t1199154242
+s2954
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Refresh.icns
+c000000004779A4420000000000000D1A
+t1199154242
+s3354
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Remove Red.icns
+c000000004779A4420000000000000BA9
+t1199154242
+s2985
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Remove.icns
+c000000004779A4420000000000000C0B
+t1199154242
+s3083
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Search.icns
+c000000004779A4420000000000000D00
+t1199154242
+s3328
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Shuffle Off.icns
+c000000004779A4420000000000000D19
+t1199154242
+s3353
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Shuffle On.icns
+c000000004779A4420000000000000D9D
+t1199154242
+s3485
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Smart.icns
+c000000004779A4420000000000000D46
+t1199154242
+s3398
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Snapback.icns
+c000000004779A4420000000000000CA0
+t1199154242
+s3232
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Snapforward.icns
+c000000004779A4420000000000000C8F
+t1199154242
+s3215
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Stop.icns
+c000000004779A4420000000000000C0B
+t1199154242
+s3083
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Upload.icns
+c000000004779A4420000000000000C55
+t1199154242
+s3157
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Valid Blue.icns
+c000000004779A4420000000000000C24
+t1199154242
+s3108
+
+N/Users/sHansack/Xcode/iDownloader/images/knobs/Knob Valid Green.icns
+c000000004779A4420000000000000C4C
+t1199154242
+s3148
 
 N/Users/sHansack/Xcode/iDownloader/macosx/usr/lib/libxml2.2.7.3.dylib
 c00000000000000000000000000000000
@@ -233,9 +620,9 @@ t1292524157
 s56911664
 
 NiDownloader-Info.plist
-c000000004D07B02E0000000000000B75
-t1292349486
-s2933
+c000000004D0A80350000000000000B58
+t1292533813
+s2904
 
 CCheck dependencies
 r0
@@ -404,6 +791,126 @@ x/Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resource
 xen.lproj/InfoPlist.strings
 lSLF07#2@31"Copy en.lproj/InfoPlist.strings314216927#314216927#0(0"0(0#0#60"/Users/sHansack/Xcode/iDownloader/en.lproj/InfoPlist.strings8609547840#349"    cd /Users/sHansack/Xcode/iDownloader    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 en.lproj/InfoPlist.strings --outdir /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj0#
 
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/API rapidshare.com.rtf" "iDownloader.xcodeproj/ressources/API rapidshare.com.rtf"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Add.icns" "images/knobs/Knob Add.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Attention.icns" "images/knobs/Knob Attention.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Blue.icns" "images/knobs/Knob Blue.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Cancel.icns" "images/knobs/Knob Cancel.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Download.icns" "images/knobs/Knob Download.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Fast Forward.icns" "images/knobs/Knob Fast Forward.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Fast Rewind.icns" "images/knobs/Knob Fast Rewind.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Favorite.icns" "images/knobs/Knob Favorite.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Forward.icns" "images/knobs/Knob Forward.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Graphite.icns" "images/knobs/Knob Graphite.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Green.icns" "images/knobs/Knob Green.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Grey.icns" "images/knobs/Knob Grey.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Help.icns" "images/knobs/Knob Help.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Info.icns" "images/knobs/Knob Info.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Left.icns" "images/knobs/Knob Left.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Loop Off.icns" "images/knobs/Knob Loop Off.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Loop On.icns" "images/knobs/Knob Loop On.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Message.icns" "images/knobs/Knob Message.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Orange.icns" "images/knobs/Knob Orange.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Pause.icns" "images/knobs/Knob Pause.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Play Green.icns" "images/knobs/Knob Play Green.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Play.icns" "images/knobs/Knob Play.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Purple.icns" "images/knobs/Knob Purple.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Record Off.icns" "images/knobs/Knob Record Off.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Record On.icns" "images/knobs/Knob Record On.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Red.icns" "images/knobs/Knob Red.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Refresh.icns" "images/knobs/Knob Refresh.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Remove Red.icns" "images/knobs/Knob Remove Red.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Remove.icns" "images/knobs/Knob Remove.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Search.icns" "images/knobs/Knob Search.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Shuffle Off.icns" "images/knobs/Knob Shuffle Off.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Shuffle On.icns" "images/knobs/Knob Shuffle On.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Smart.icns" "images/knobs/Knob Smart.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Snapback.icns" "images/knobs/Knob Snapback.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Snapforward.icns" "images/knobs/Knob Snapforward.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Stop.icns" "images/knobs/Knob Stop.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Upload.icns" "images/knobs/Knob Upload.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Valid Blue.icns" "images/knobs/Knob Valid Blue.icns"
+r0
+
+CCpResource "build/Debug/iDownloader.app/Contents/Resources/Knob Valid Green.icns" "images/knobs/Knob Valid Green.icns"
+r0
+
 CCpResource build/Debug/iDownloader.app/Contents/Resources/en.lproj/Credits.rtf en.lproj/Credits.rtf
 s314216927.292688
 e314216927.421308
@@ -412,6 +919,12 @@ xCpResource
 xbuild/Debug/iDownloader.app/Contents/Resources/en.lproj/Credits.rtf
 xen.lproj/Credits.rtf
 lSLF07#2@25"Copy en.lproj/Credits.rtf314216927#314216927#0(0"0(0#0#54"/Users/sHansack/Xcode/iDownloader/en.lproj/Credits.rtf8610403616#334"    cd /Users/sHansack/Xcode/iDownloader    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sHansack/Xcode/iDownloader/en.lproj/Credits.rtf /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/en.lproj0#
+
+CCpResource build/Debug/iDownloader.app/Contents/Resources/iDownloader.icns iDownloader.icns
+r0
+
+CCpResource build/Debug/iDownloader.app/Contents/Resources/rapidshare.sh iDownloader.xcodeproj/ressources/rapidshare.sh
+r0
 
 CDataModelCompile /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Resources/iDownloader.mom /Users/sHansack/Xcode/iDownloader/iDownloader.xcdatamodel
 s314216925.967755
@@ -445,6 +958,9 @@ xx86_64
 old: duplicate symbol _OBJC_METACLASS_$_iDownloader in /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o and /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o
 ocollect2: ld returned 1 exit status
 lSLF07#2@93"Link /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/MacOS/iDownloader314216926#314216927#0(423"ld: duplicate symbol _OBJC_METACLASS_$_iDownloader in /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o and /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.ocollect2: ld returned 1 exit statusCommand /Developer/usr/bin/gcc-4.2 failed with exit code 12(13@323"Duplicate symbol _OBJC_METACLASS_$_iDownloader in /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o and /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader-B8A7430BAFD86C80.o314216927#0#328#0(6@0"314216927#0#0#0#0#0"0(4@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1314216927#18446744073709551615#0#0(1@0"0(0#0#0"8610084960#586"    cd /Users/sHansack/Xcode/iDownloader    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader/build/Debug -F/Users/sHansack/Xcode/iDownloader -filelist /Users/sHansack/Xcode/iDownloader/build/iDownloader.build/Debug/iDownloader.build/Objects-normal/x86_64/iDownloader.LinkFileList -mmacosx-version-min=10.6 -lxml2.2.7.3 -framework Cocoa -o /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/MacOS/iDownloader1#
+
+CPBXCp build/Debug/iDownloader.app/Contents/Frameworks/CURLHandle.framework Frameworks/CURLHandle.framework
+r0
 
 CProcessInfoPlistFile /Users/sHansack/Xcode/iDownloader/build/Debug/iDownloader.app/Contents/Info.plist iDownloader-Info.plist
 s314216921.946826
