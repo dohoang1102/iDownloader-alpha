@@ -52,9 +52,9 @@ static NSString *const apiArgs = @"";
     //
 	
     NSString *fileid = [[baseURL pathComponents] objectAtIndex:[[baseURL pathComponents] count] - 2];
-	NSString *filename = [baseURL lastPathComponent];
+    NSString *filename = [baseURL lastPathComponent];
 
-	NSString *request = [[NSString alloc] initWithFormat: @"%@checkfiles&files=%@&filenames=%@",apiInterface ,fileid ,filename];
+    NSString *request = [[NSString alloc] initWithFormat: @"%@checkfiles&files=%@&filenames=%@",apiInterface ,fileid ,filename];
     
     NSURL *requestURL = [[NSURL alloc] initWithString: request];
     
