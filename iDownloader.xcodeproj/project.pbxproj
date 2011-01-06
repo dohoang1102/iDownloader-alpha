@@ -50,6 +50,8 @@
 		8510450B12BAAAD200F7348B /* Knob Valid Blue.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044E412BAAAD200F7348B /* Knob Valid Blue.icns */; };
 		8510450C12BAAAD200F7348B /* Knob Valid Green.icns in Resources */ = {isa = PBXBuildFile; fileRef = 851044E512BAAAD200F7348B /* Knob Valid Green.icns */; };
 		8510451E12BAB7B000F7348B /* iDownloader.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8510451D12BAB7B000F7348B /* iDownloader.icns */; };
+		8512EFC812D15D4F00557DED /* AddDownload.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8512EFC612D15D4F00557DED /* AddDownload.xib */; };
+		8512EFD812D1E82D00557DED /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8512EFD612D1E82D00557DED /* Preferences.xib */; };
 		851430A712D11FA900796E94 /* Hoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 851430A612D11FA900796E94 /* Hoster.m */; };
 		851430AA12D1344D00796E94 /* HosterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 851430A912D1344D00796E94 /* HosterFactory.m */; };
 		8514690E12B7E7AE00F8C663 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514690D12B7E7AE00F8C663 /* Cocoa.framework */; };
@@ -131,6 +133,8 @@
 		851044E412BAAAD200F7348B /* Knob Valid Blue.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Valid Blue.icns"; sourceTree = "<group>"; };
 		851044E512BAAAD200F7348B /* Knob Valid Green.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Knob Valid Green.icns"; sourceTree = "<group>"; };
 		8510451D12BAB7B000F7348B /* iDownloader.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iDownloader.icns; sourceTree = "<group>"; };
+		8512EFC712D15D4F00557DED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AddDownload.xib; sourceTree = "<group>"; };
+		8512EFD712D1E82D00557DED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Preferences.xib; sourceTree = "<group>"; };
 		851430A412D11F8C00796E94 /* APIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIs.h; path = API/APIs.h; sourceTree = "<group>"; };
 		851430A512D11FA900796E94 /* Hoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hoster.h; sourceTree = "<group>"; };
 		851430A612D11FA900796E94 /* Hoster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hoster.m; sourceTree = "<group>"; };
@@ -180,8 +184,10 @@
 		851044BC12BAA96A00F7348B /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				8512EFC612D15D4F00557DED /* AddDownload.xib */,
 				8514691612B7E7AE00F8C663 /* MainMenu.xib */,
 				8514691F12B7E7AE00F8C663 /* iDownloader.xib */,
+				8512EFD612D1E82D00557DED /* Preferences.xib */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -391,6 +397,7 @@
 			isa = PBXProject;
 			buildConfigurationList = 851468FF12B7E7AE00F8C663 /* Build configuration list for PBXProject "iDownloader" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -456,6 +463,8 @@
 				8510451E12BAB7B000F7348B /* iDownloader.icns in Resources */,
 				85E5F3DA12CE038D00592C8E /* rapidshare.sh in Resources */,
 				85AD5D9D12D0B27E00F4166C /* API rapidshare.com.rtf in Resources */,
+				8512EFC812D15D4F00557DED /* AddDownload.xib in Resources */,
+				8512EFD812D1E82D00557DED /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +493,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		8512EFC612D15D4F00557DED /* AddDownload.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8512EFC712D15D4F00557DED /* en */,
+			);
+			name = AddDownload.xib;
+			sourceTree = "<group>";
+		};
+		8512EFD612D1E82D00557DED /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8512EFD712D1E82D00557DED /* en */,
+			);
+			name = Preferences.xib;
+			sourceTree = "<group>";
+		};
 		8514691112B7E7AE00F8C663 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

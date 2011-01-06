@@ -12,7 +12,7 @@
 
 #import "Hoster.h"
 
-@interface rapidshare_com : Hoster {
+@interface rapidshare_com : Hoster <HosterProtocol> {
 	NSURL *baseURL;
 }
 
