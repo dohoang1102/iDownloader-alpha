@@ -14,7 +14,7 @@ static NSString *const apiArgs = @"";
 //  http://rapidshare.com/files/385296836/OGP511.7z
 //  host/files/FILEID/FILENAME
 
-@implementation rapidshare_com
+@implementation RapidshareCom
 
 @synthesize baseURL;
 

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   version = "1.1">
+   version = "1.3">
    <BuildAction
       parallelizeBuildables = "NO"
       buildImplicitDependencies = "YES">
    </BuildAction>
    <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
@@ -23,6 +26,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8514690912B7E7AE00F8C663"
+            BuildableName = "iDownloader.app"
+            BlueprintName = "iDownloader"
             ReferencedContainer = "container:iDownloader.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -30,7 +35,6 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      persistedCurrentAnalysisToolIdentifier = ""
       displayScaleIsEnabled = "NO"
       displayScale = "1.00"
       shouldUseLaunchSchemeArgsEnv = "YES"
@@ -40,11 +44,14 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8514690912B7E7AE00F8C663"
+            BuildableName = "iDownloader.app"
+            BlueprintName = "iDownloader"
             ReferencedContainer = "container:iDownloader.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <ArchiveAction
-      buildConfiguration = "Release">
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
