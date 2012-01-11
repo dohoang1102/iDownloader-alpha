@@ -36,8 +36,8 @@
     
     if ( [host isEqualToString:@"rapidshare.com"]) {
         // Hoster: Rapidshare.com 
-        rapidshare_com *hoster = [[rapidshare_com alloc] initWithURL: aURL];
-        return hoster;
+       // rapidshare_com *hoster = [[rapidshare_com alloc] initWithURL: aURL];
+       // return hoster;
     }         
     
     return nil;

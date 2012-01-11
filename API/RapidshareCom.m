@@ -1,12 +1,12 @@
 //
-//  rapidshare.com.m
+//  rapidshareCom.m
 //  iDownloader
 //
 //  Created by Sebastian Hansack on 01.01.11.
 //  Copyright 2011. All rights reserved.
 //
 
-#import "rapidshare.com.h"
+#import "rapidshareCom.h"
 static NSString *const apiInterface = @"http://api.rapidshare.com/cgi-bin/rsapi.cgi?sub=";
 static NSString *const apiArgs = @"";
 
